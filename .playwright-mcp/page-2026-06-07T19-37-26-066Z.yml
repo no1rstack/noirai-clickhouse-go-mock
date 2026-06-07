@@ -1,0 +1,863 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "NoirAI / Docs" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: NoirAI
+        - generic [ref=e7]: /
+        - generic [ref=e8]: Docs
+      - generic [ref=e9]:
+        - button "Search docs" [ref=e10]:
+          - text: Search docs…
+          - generic [ref=e11]: ⌘K
+        - link "GitHub" [ref=e12] [cursor=pointer]:
+          - /url: https://github.com/no1rstack/noirai
+  - generic [ref=e13]:
+    - complementary [ref=e14]:
+      - navigation [ref=e16]:
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - list [ref=e19]:
+              - listitem [ref=e20]:
+                - link "Agno Monitoring and Observability with OpenTelemetry" [ref=e21] [cursor=pointer]:
+                  - /url: /docs/agno-monitoring
+              - listitem [ref=e22]:
+                - link "Alerts" [ref=e23] [cursor=pointer]:
+                  - /url: /docs/alerts
+              - listitem [ref=e24]:
+                - link "Amazon Bedrock Monitoring and Observability with OpenTelemetry" [ref=e25] [cursor=pointer]:
+                  - /url: /docs/amazon-bedrock-monitoring
+              - listitem [ref=e26]:
+                - link "Anthropic Monitoring & Observability with OpenTelemetry" [ref=e27] [cursor=pointer]:
+                  - /url: /docs/anthropic-monitoring
+              - listitem [ref=e28]:
+                - link "Technical Architecture" [ref=e29] [cursor=pointer]:
+                  - /url: /docs/architecture
+              - listitem [ref=e30]:
+                - link "AutoGen Observability & Monitoring with OpenTelemetry" [ref=e31] [cursor=pointer]:
+                  - /url: /docs/autogen-observability
+              - listitem [ref=e32]:
+                - link "Azure Monitoring" [ref=e33] [cursor=pointer]:
+                  - /url: /docs/azure-monitoring
+              - listitem [ref=e34]:
+                - link "Azure OpenAI Monitoring & Observability with OpenTelemetry" [ref=e35] [cursor=pointer]:
+                  - /url: /docs/azure-openai-monitoring
+              - listitem [ref=e36]:
+                - link "Baseten Monitoring & Observability with OpenTelemetry" [ref=e37] [cursor=pointer]:
+                  - /url: /docs/baseten-monitoring
+              - listitem [ref=e38]:
+                - link "Claude Agent SDK Monitoring & Observability with OpenTelemetry" [ref=e39] [cursor=pointer]:
+                  - /url: /docs/claude-agent-monitoring
+              - listitem [ref=e40]:
+                - link "Claude Code Monitoring & Observability with OpenTelemetry" [ref=e41] [cursor=pointer]:
+                  - /url: /docs/claude-code-monitoring
+              - listitem [ref=e42]:
+                - link "NoirAI Cloud" [ref=e43] [cursor=pointer]:
+                  - /url: /docs/cloud
+              - listitem [ref=e44]:
+                - link "OpenAI Codex Observability & Monitoring with OpenTelemetry" [ref=e45] [cursor=pointer]:
+                  - /url: /docs/codex-monitoring
+              - listitem [ref=e46]:
+                - link "Community" [ref=e47] [cursor=pointer]:
+                  - /url: /docs/community
+              - listitem [ref=e48]:
+                - link "Contributing to NoirAI" [ref=e49] [cursor=pointer]:
+                  - /url: /docs/contributing
+              - listitem [ref=e50]:
+                - link "CrewAI Observability & Monitoring with OpenTelemetry" [ref=e51] [cursor=pointer]:
+                  - /url: /docs/crewai-observability
+              - listitem [ref=e52]:
+                - link "DeepSeek Monitoring & Observability with OpenTelemetry" [ref=e53] [cursor=pointer]:
+                  - /url: /docs/deepseek-monitoring
+              - listitem [ref=e54]:
+                - link "Dify Observability & Monitoring with OpenTelemetry" [ref=e55] [cursor=pointer]:
+                  - /url: /docs/dify-observability
+              - listitem [ref=e56]:
+                - link "FAQs" [ref=e57] [cursor=pointer]:
+                  - /url: /docs/faqs
+              - listitem [ref=e58]:
+                - link "Frontend Monitoring" [ref=e59] [cursor=pointer]:
+                  - /url: /docs/frontend-monitoring
+              - listitem [ref=e60]:
+                - link "GCP Monitoring" [ref=e61] [cursor=pointer]:
+                  - /url: /docs/gcp-monitoring
+              - listitem [ref=e62]:
+                - link "Google ADK Observability & Monitoring with OpenTelemetry" [ref=e63] [cursor=pointer]:
+                  - /url: /docs/google-adk-observability
+              - listitem [ref=e64]:
+                - link "Google Gemini Monitoring & Observability with OpenTelemetry" [ref=e65] [cursor=pointer]:
+                  - /url: /docs/google-gemini-monitoring
+              - listitem [ref=e66]:
+                - link "xAI Grok Monitoring & Observability with OpenTelemetry" [ref=e67] [cursor=pointer]:
+                  - /url: /docs/grok-monitoring
+              - listitem [ref=e68]:
+                - link "Groq Observability & Monitoring with OpenTelemetry" [ref=e69] [cursor=pointer]:
+                  - /url: /docs/groq-observability
+              - listitem [ref=e70]:
+                - link "Haystack Observability & Monitoring with OpenTelemetry" [ref=e71] [cursor=pointer]:
+                  - /url: /docs/haystack-monitoring
+              - listitem [ref=e72]:
+                - link "Hugging Face Observability & Monitoring with OpenTelemetry" [ref=e73] [cursor=pointer]:
+                  - /url: /docs/huggingface-observability
+              - listitem [ref=e74]:
+                - link "Inkeep Monitoring & Observability with OpenTelemetry" [ref=e75] [cursor=pointer]:
+                  - /url: /docs/inkeep-monitoring
+              - listitem [ref=e76]:
+                - link "Get Started with NoirAI" [ref=e77] [cursor=pointer]:
+                  - /url: /docs/install
+              - listitem [ref=e78]:
+                - link "Instrument Your Application - Setup Guide" [ref=e79] [cursor=pointer]:
+                  - /url: /docs/instrumentation
+              - listitem [ref=e80]:
+                - link "What's NoirAI" [ref=e81] [cursor=pointer]:
+                  - /url: /docs/introduction
+              - listitem [ref=e82]:
+                - link "LangChain & LangGraph Observability with OpenTelemetry" [ref=e83] [cursor=pointer]:
+                  - /url: /docs/langchain-observability
+              - listitem [ref=e84]:
+                - link "LLM Monitoring with Langtrace - Setup Guide" [ref=e85] [cursor=pointer]:
+                  - /url: /docs/langtrace
+              - listitem [ref=e86]:
+                - link "LiteLLM Observability & Monitoring with OpenTelemetry" [ref=e87] [cursor=pointer]:
+                  - /url: /docs/litellm-observability
+              - listitem [ref=e88]:
+                - link "LiveKit Observability & Monitoring with OpenTelemetry" [ref=e89] [cursor=pointer]:
+                  - /url: /docs/livekit-observability
+              - listitem [ref=e90]:
+                - link "LlamaIndex Observability & Monitoring with OpenTelemetry" [ref=e91] [cursor=pointer]:
+                  - /url: /docs/llamaindex-observability
+              - listitem [ref=e92]:
+                - link "LLM Observability Overview" [ref=e93] [cursor=pointer]:
+                  - /url: /docs/llm-observability
+              - listitem [ref=e94]:
+                - link "Mastra Observability & Monitoring with OpenTelemetry" [ref=e95] [cursor=pointer]:
+                  - /url: /docs/mastra-observability
+              - listitem [ref=e96]:
+                - link "Mistral AI Observability & Monitoring with OpenTelemetry" [ref=e97] [cursor=pointer]:
+                  - /url: /docs/mistral-observability
+              - listitem [ref=e98]:
+                - link "Mobile Monitoring" [ref=e99] [cursor=pointer]:
+                  - /url: /docs/mobile-monitoring
+              - listitem [ref=e100]:
+                - link "Monitor HTTP Endpoints" [ref=e101] [cursor=pointer]:
+                  - /url: /docs/monitor-http-endpoints
+              - listitem [ref=e102]:
+                - link "n8n Monitoring & Observability with OpenTelemetry" [ref=e103] [cursor=pointer]:
+                  - /url: /docs/n8n-monitoring
+              - listitem [ref=e104]:
+                - link "Ollama Monitoring & Observability with OpenTelemetry" [ref=e105] [cursor=pointer]:
+                  - /url: /docs/ollama-monitoring
+              - listitem [ref=e106]:
+                - link "OpenAI Monitoring with OpenTelemetry" [ref=e107] [cursor=pointer]:
+                  - /url: /docs/openai-monitoring
+              - listitem [ref=e108]:
+                - link "OpenClaw Observability & Monitoring with OpenTelemetry" [ref=e109] [cursor=pointer]:
+                  - /url: /docs/openclaw-observability
+              - listitem [ref=e110]:
+                - link "OpenCode Observability & Monitoring with OpenTelemetry" [ref=e111] [cursor=pointer]:
+                  - /url: /docs/opencode-observability
+              - listitem [ref=e112]:
+                - link "OpenLIT Observability - Monitor LLMs & GenAI Apps" [ref=e113] [cursor=pointer]:
+                  - /url: /docs/openlit
+              - listitem [ref=e114]:
+                - link "OpenRouter Observability & Monitoring with OpenTelemetry" [ref=e115] [cursor=pointer]:
+                  - /url: /docs/openrouter-observability
+              - listitem [ref=e116]:
+                - link "Pipecat Monitoring & Observability with OpenTelemetry" [ref=e117] [cursor=pointer]:
+                  - /url: /docs/pipecat-monitoring
+              - listitem [ref=e118]:
+                - link "Best Practices to follow to run NoirAI in production" [ref=e119] [cursor=pointer]:
+                  - /url: /docs/production-readiness
+              - listitem [ref=e120]:
+                - link "Pydantic AI Observability & Monitoring with OpenTelemetry" [ref=e121] [cursor=pointer]:
+                  - /url: /docs/pydantic-ai-observability
+              - listitem [ref=e122]:
+                - link "Qwen Observability & Monitoring with OpenTelemetry" [ref=e123] [cursor=pointer]:
+                  - /url: /docs/qwen-observability
+              - listitem [ref=e124]:
+                - link "Product Roadmap" [ref=e125] [cursor=pointer]:
+                  - /url: /docs/roadmap
+              - listitem [ref=e126]:
+                - link "Semantic Kernel Observability - Monitor AI Orchestration" [ref=e127] [cursor=pointer]:
+                  - /url: /docs/semantic-kernel-observability
+              - listitem [ref=e128]:
+                - link "Setup Notifications" [ref=e129] [cursor=pointer]:
+                  - /url: /docs/setup-alerts-notification
+              - listitem [ref=e130]:
+                - link "Statistics Reporting" [ref=e131] [cursor=pointer]:
+                  - /url: /docs/telemetry
+              - listitem [ref=e132]:
+                - link "Temporal Observability & Monitoring with OpenTelemetry" [ref=e133] [cursor=pointer]:
+                  - /url: /docs/temporal-observability
+              - listitem [ref=e134]:
+                - link "Traceloop Observability - Monitor LLM Usage" [ref=e135] [cursor=pointer]:
+                  - /url: /docs/traceloop
+              - listitem [ref=e136]:
+                - link "Vercel AI SDK Observability & Monitoring with OpenTelemetry" [ref=e137] [cursor=pointer]:
+                  - /url: /docs/vercel-ai-sdk-observability
+              - listitem [ref=e138]:
+                - link "What is NoirAI?" [ref=e139] [cursor=pointer]:
+                  - /url: /docs/what-is-noirai
+          - listitem [ref=e140]:
+            - button "Ai" [ref=e141]:
+              - text: Ai
+              - img [ref=e142]
+          - listitem [ref=e144]:
+            - button "Alerts Management" [ref=e145]:
+              - text: Alerts Management
+              - img [ref=e146]
+          - listitem [ref=e148]:
+            - button "Apm And Distributed Tracing" [ref=e149]:
+              - text: Apm And Distributed Tracing
+              - img [ref=e150]
+          - listitem [ref=e152]:
+            - button "Aws Monitoring" [ref=e153]:
+              - text: Aws Monitoring
+              - img [ref=e154]
+          - listitem [ref=e156]:
+            - button "Azure Monitoring" [ref=e157]:
+              - text: Azure Monitoring
+              - img [ref=e158]
+          - listitem [ref=e160]:
+            - button "Category" [ref=e161]:
+              - text: Category
+              - img [ref=e162]
+          - listitem [ref=e164]:
+            - button "Cicd" [ref=e165]:
+              - text: Cicd
+              - img [ref=e166]
+          - listitem [ref=e168]:
+            - button "Cloud" [ref=e169]:
+              - text: Cloud
+              - img [ref=e170]
+          - listitem [ref=e172]:
+            - button "Community" [ref=e173]:
+              - text: Community
+              - img [ref=e174]
+          - listitem [ref=e176]:
+            - button "Cost Meter" [ref=e177]:
+              - text: Cost Meter
+              - img [ref=e178]
+          - listitem [ref=e180]:
+            - button "Dashboards" [ref=e181]:
+              - text: Dashboards
+              - img [ref=e182]
+          - listitem [ref=e184]:
+            - button "External Api Monitoring" [ref=e185]:
+              - text: External Api Monitoring
+              - img [ref=e186]
+          - listitem [ref=e188]:
+            - button "Faqs" [ref=e189]:
+              - text: Faqs
+              - img [ref=e190]
+          - listitem [ref=e192]:
+            - button "Frontend Monitoring" [ref=e193]:
+              - text: Frontend Monitoring
+              - img [ref=e194]
+          - listitem [ref=e196]:
+            - button "Gcp Monitoring" [ref=e197]:
+              - text: Gcp Monitoring
+              - img [ref=e198]
+          - listitem [ref=e200]:
+            - button "Infrastructure Monitoring" [ref=e201]:
+              - text: Infrastructure Monitoring
+              - img [ref=e202]
+          - listitem [ref=e204]:
+            - button "Ingestion" [ref=e205]:
+              - text: Ingestion
+              - img [ref=e206]
+          - listitem [ref=e208]:
+            - button "Install" [ref=e209]:
+              - text: Install
+              - img [ref=e210]
+          - listitem [ref=e212]:
+            - button "Instrumentation" [ref=e213]:
+              - text: Instrumentation
+              - img [ref=e214]
+          - listitem [ref=e216]:
+            - button "Integrations" [ref=e217]:
+              - text: Integrations
+              - img [ref=e218]
+          - listitem [ref=e220]:
+            - button "Logs Management" [ref=e221]:
+              - text: Logs Management
+              - img [ref=e222]
+          - listitem [ref=e224]:
+            - button "Logs Pipelines" [ref=e225]:
+              - text: Logs Pipelines
+              - img [ref=e226]
+          - listitem [ref=e228]:
+            - button "Manage" [ref=e229]:
+              - text: Manage
+              - img [ref=e230]
+          - listitem [ref=e232]:
+            - button "Messaging Queues" [ref=e233]:
+              - text: Messaging Queues
+              - img [ref=e234]
+          - listitem [ref=e236]:
+            - button "Metrics Management" [ref=e237]:
+              - text: Metrics Management
+              - img [ref=e238]
+          - listitem [ref=e240]:
+            - button "Migration" [ref=e241]:
+              - text: Migration
+              - img [ref=e242]
+          - listitem [ref=e244]:
+            - button "Opentelemetry Collection Agents" [ref=e245]:
+              - text: Opentelemetry Collection Agents
+              - img [ref=e246]
+          - listitem [ref=e248]:
+            - button "Operate" [ref=e249]:
+              - text: Operate
+              - img [ref=e250]
+          - listitem [ref=e252]:
+            - button "Overview" [ref=e253]:
+              - text: Overview
+              - img [ref=e254]
+          - listitem [ref=e256]:
+            - button "Product Features" [ref=e257]:
+              - text: Product Features
+              - img [ref=e258]
+          - listitem [ref=e260]:
+            - button "Querying" [ref=e261]:
+              - text: Querying
+              - img [ref=e262]
+          - listitem [ref=e264]:
+            - button "Setup" [ref=e265]:
+              - text: Setup
+              - img [ref=e266]
+          - listitem [ref=e268]:
+            - button "Trace Funnels" [ref=e269]:
+              - text: Trace Funnels
+              - img [ref=e270]
+          - listitem [ref=e272]:
+            - button "Traces Management" [ref=e273]:
+              - text: Traces Management
+              - img [ref=e274]
+          - listitem [ref=e276]:
+            - button "Tutorial" [ref=e277]:
+              - text: Tutorial
+              - img [ref=e278]
+          - listitem [ref=e280]:
+            - button "Userguide" [ref=e281]:
+              - text: Userguide
+              - img [ref=e282]
+            - list [ref=e284]:
+              - listitem [ref=e285]:
+                - link "Alert List Page" [ref=e286] [cursor=pointer]:
+                  - /url: /docs/userguide/alerts-management
+              - listitem [ref=e287]:
+                - link "Authentication and Login" [ref=e288] [cursor=pointer]:
+                  - /url: /docs/userguide/authentication
+              - listitem [ref=e289]:
+                - link "ClickHouse Query FAQs" [ref=e290] [cursor=pointer]:
+                  - /url: /docs/userguide/clickhouse-faqs
+              - listitem [ref=e291]:
+                - link "Collecting Docker Logs" [ref=e292] [cursor=pointer]:
+                  - /url: /docs/userguide/collect_docker_logs
+              - listitem [ref=e293]:
+                - link "Collecting Kubernetes Pod Logs" [ref=e294] [cursor=pointer]:
+                  - /url: /docs/userguide/collect_kubernetes_pod_logs
+              - listitem [ref=e295]:
+                - link "Collecting Application Logs from Log File" [ref=e296] [cursor=pointer]:
+                  - /url: /docs/userguide/collect_logs_from_file
+              - listitem [ref=e297]:
+                - link "Collecting Syslogs via OpenTelemetry Collector" [ref=e298] [cursor=pointer]:
+                  - /url: /docs/userguide/collecting_syslogs
+              - listitem [ref=e299]:
+                - link "APM Dashboards and Alerts" [ref=e300] [cursor=pointer]:
+                  - /url: /docs/userguide/custom-apm-dashboards-alerts
+              - listitem [ref=e301]:
+                - link "How to Drop and Filter OpenTelemetry Metrics" [ref=e302] [cursor=pointer]:
+                  - /url: /docs/userguide/drop-metrics
+              - listitem [ref=e303]:
+                - link "Send Envoy Metrics to NoirAI using OpenTelemetry" [ref=e304] [cursor=pointer]:
+                  - /url: /docs/userguide/envoy-metrics
+              - listitem [ref=e305]:
+                - link "Errors and Exceptions" [ref=e306] [cursor=pointer]:
+                  - /url: /docs/userguide/exceptions
+              - listitem [ref=e307]:
+                - link "Field Context and Data Types Guide" [ref=e308] [cursor=pointer]:
+                  - /url: /docs/userguide/field-context-data-types
+              - listitem [ref=e309]:
+                - link "FluentBit to NoirAI" [ref=e310] [cursor=pointer]:
+                  - /url: /docs/userguide/fluentbit_to_noirai
+              - listitem [ref=e311]:
+                - link "FluentD to NoirAI" [ref=e312] [cursor=pointer]:
+                  - /url: /docs/userguide/fluentd_to_noirai
+              - listitem [ref=e313]:
+                - link "Full-Text Search Guide" [ref=e314] [cursor=pointer]:
+                  - /url: /docs/userguide/full-text-search
+              - listitem [ref=e315]:
+                - link "Functions Reference Guide" [ref=e316] [cursor=pointer]:
+                  - /url: /docs/userguide/functions-reference
+              - listitem [ref=e317]:
+                - link "Stream Logs from Heroku to NoirAI" [ref=e318] [cursor=pointer]:
+                  - /url: /docs/userguide/heroku_logs_to_noirai
+              - listitem [ref=e319]:
+                - link "Log Schema - Write ClickHouse Queries & Build Dashboard Panels" [ref=e320] [cursor=pointer]:
+                  - /url: /docs/userguide/logs_clickhouse_queries
+              - listitem [ref=e321]:
+                - link "Fields in Logs" [ref=e322] [cursor=pointer]:
+                  - /url: /docs/userguide/logs_fields
+              - listitem [ref=e323]:
+                - link "Logs Explorer" [ref=e324] [cursor=pointer]:
+                  - /url: /docs/userguide/logs_query_builder
+              - listitem [ref=e325]:
+                - link "Send logs from Logstash to NoirAI via OpenTelemetry" [ref=e326] [cursor=pointer]:
+                  - /url: /docs/userguide/logstash_to_noirai
+              - listitem [ref=e327]:
+                - link "Manage Dashboards in NoirAI" [ref=e328] [cursor=pointer]:
+                  - /url: /docs/userguide/manage-dashboards
+              - listitem [ref=e329]:
+                - link "Manage Variables in NoirAI" [ref=e330] [cursor=pointer]:
+                  - /url: /docs/userguide/manage-variables
+              - listitem [ref=e331]:
+                - link "View Services" [ref=e332] [cursor=pointer]:
+                  - /url: /docs/userguide/metrics
+              - listitem [ref=e333]:
+                - link "Send StatsD Metrics to NoirAI using OpenTelemetry Collector" [ref=e334] [cursor=pointer]:
+                  - /url: /docs/userguide/opentelemetry-statsd
+              - listitem [ref=e335]:
+                - link "Operators Reference - List of all Search Operators in NoirAI" [ref=e336] [cursor=pointer]:
+                  - /url: /docs/userguide/operators-reference
+              - listitem [ref=e337]:
+                - link "OpenTelemetry Receivers" [ref=e338] [cursor=pointer]:
+                  - /url: /docs/userguide/otel-metrics-receivers
+              - listitem [ref=e339]:
+                - link "CORS in OTLP HTTP Receiver" [ref=e340] [cursor=pointer]:
+                  - /url: /docs/userguide/otlp-http-enable-cors
+              - listitem [ref=e341]:
+                - link "Parsing Multiline Logs" [ref=e342] [cursor=pointer]:
+                  - /url: /docs/userguide/parse-multiline-logs
+              - listitem [ref=e343]:
+                - link "Prometheus Metrics" [ref=e344] [cursor=pointer]:
+                  - /url: /docs/userguide/prometheus-metrics
+              - listitem [ref=e345]:
+                - link "Query Builder v5 - Advanced Querying Guide" [ref=e346] [cursor=pointer]:
+                  - /url: /docs/userguide/query-builder-v5
+              - listitem [ref=e347]:
+                - link "Query Troubleshooting FAQs" [ref=e348] [cursor=pointer]:
+                  - /url: /docs/userguide/query-troubleshooting-faqs
+              - listitem [ref=e349]:
+                - link "Retention Period" [ref=e350] [cursor=pointer]:
+                  - /url: /docs/userguide/retention-period
+              - listitem [ref=e351]:
+                - link "Advanced Search Query Examples" [ref=e352] [cursor=pointer]:
+                  - /url: /docs/userguide/search-advanced-examples
+              - listitem [ref=e353]:
+                - link "Search Syntax Guide - Filter Logs, Traces & Metrics" [ref=e354] [cursor=pointer]:
+                  - /url: /docs/userguide/search-syntax
+              - listitem [ref=e355]:
+                - link "Search Query Troubleshooting Guide" [ref=e356] [cursor=pointer]:
+                  - /url: /docs/userguide/search-troubleshooting
+              - listitem [ref=e357]:
+                - link "Send CloudWatch logs to NoirAI" [ref=e358] [cursor=pointer]:
+                  - /url: /docs/userguide/send-cloudwatch-logs-to-noirai
+              - listitem [ref=e359]:
+                - link "Sending Logs to NoirAI over HTTP" [ref=e360] [cursor=pointer]:
+                  - /url: /docs/userguide/send-logs-http
+              - listitem [ref=e361]:
+                - link "Service Map (Beta)" [ref=e362] [cursor=pointer]:
+                  - /url: /docs/userguide/service-map
+              - listitem [ref=e363]:
+                - link "Trace Details" [ref=e364] [cursor=pointer]:
+                  - /url: /docs/userguide/span-details
+              - listitem [ref=e365]:
+                - link "Trace Explorer" [ref=e366] [cursor=pointer]:
+                  - /url: /docs/userguide/traces
+              - listitem [ref=e367]:
+                - link "Stream Telemetry from Vercel to NoirAI" [ref=e368] [cursor=pointer]:
+                  - /url: /docs/userguide/vercel-to-noirai
+              - listitem [ref=e369]:
+                - link "Metrics ClickHouse Query Guide" [ref=e370] [cursor=pointer]:
+                  - /url: /docs/userguide/write-a-metrics-clickhouse-query
+              - listitem [ref=e371]:
+                - link "PromQL UTF-8 Syntax Guide" [ref=e372] [cursor=pointer]:
+                  - /url: /docs/userguide/write-a-prom-query-with-new-format
+              - listitem [ref=e373]:
+                - link "Traces Schema - Write ClickHouse Queries & Build Dashboard Panels" [ref=e374] [cursor=pointer]:
+                  - /url: /docs/userguide/writing-clickhouse-traces-query
+    - main [ref=e375]:
+      - generic [ref=e376]:
+        - article [ref=e377]:
+          - navigation "Breadcrumb" [ref=e378]:
+            - list [ref=e379]:
+              - listitem [ref=e380]:
+                - link "Docs" [ref=e381] [cursor=pointer]:
+                  - /url: /docs
+              - listitem [ref=e382]:
+                - generic [ref=e383]: /
+                - link "Userguide" [ref=e384] [cursor=pointer]:
+                  - /url: /docs/userguide
+              - listitem [ref=e385]:
+                - generic [ref=e386]: /
+                - generic [ref=e387]: Traces
+          - generic [ref=e388]:
+            - generic [ref=e389]:
+              - heading "Trace Explorer" [level=1] [ref=e390]
+              - paragraph [ref=e391]: Understand the Trace Explorer in NoirAI — views, filtering, trace matching, and how to save and act on your results.
+            - generic [ref=e392]:
+              - paragraph [ref=e393]: A trace is a recording of the path a request takes through your system — from the first service it hits to every downstream call it makes. Each trace is made up of spans, where each span represents a single unit of work in one service.
+              - heading "Prerequisites" [level=2] [ref=e394]:
+                - link "Prerequisites" [ref=e395] [cursor=pointer]:
+                  - /url: "#prerequisites"
+              - heading "Introduction" [level=2] [ref=e396]:
+                - link "Introduction" [ref=e397] [cursor=pointer]:
+                  - /url: "#introduction"
+              - paragraph [ref=e398]: "The Traces Explorer page in NoirAI enables developers to filter, examine, and analyze traces. There are four different views available in Traces Explorer which include:"
+              - list [ref=e399]:
+                - listitem [ref=e400]:
+                  - link "List View" [ref=e401] [cursor=pointer]:
+                    - /url: "#list-view"
+                - listitem [ref=e402]:
+                  - link "Trace View" [ref=e403] [cursor=pointer]:
+                    - /url: "#traces-view"
+                - listitem [ref=e404]:
+                  - link "Time Series View" [ref=e405] [cursor=pointer]:
+                    - /url: "#time-series-view"
+                - listitem [ref=e406]:
+                  - link "Table View" [ref=e407] [cursor=pointer]:
+                    - /url: "#table-view"
+              - heading "List View" [level=3] [ref=e408]:
+                - link "List View" [ref=e409] [cursor=pointer]:
+                  - /url: "#list-view"
+              - paragraph [ref=e410]: The List View is the default view on the Traces Explorer page. It shows individual spans matching your filters.
+              - figure "List View in Trace Explorer" [ref=e411]:
+                - generic [ref=e419]:
+                  - img [ref=e420]
+                  - generic [ref=e423]: List View in Trace Explorer
+                - generic [ref=e424]: List View in Trace Explorer
+              - paragraph [ref=e425]:
+                - strong [ref=e426]: Span Scope
+              - paragraph [ref=e427]:
+                - text: Use the
+                - strong [ref=e428]: All Spans / Root Spans / Entrypoint Spans
+                - text: "dropdown on the right to control which spans are shown:"
+              - list [ref=e429]:
+                - listitem [ref=e430]:
+                  - strong [ref=e431]: All Spans
+                  - text: — shows every span matching your filters, regardless of position in the trace.
+                - listitem [ref=e432]:
+                  - strong [ref=e433]: Root Spans
+                  - text: — shows only the top-level span of each trace (the span with no parent).
+                - listitem [ref=e434]:
+                  - strong [ref=e435]: Entrypoint Spans
+                  - text: — shows only the first span when a request enters a service from an upstream service, giving a high-level view of cross-service traffic.
+              - paragraph [ref=e436]:
+                - strong [ref=e437]: Customize Columns
+              - paragraph [ref=e438]:
+                - text: Click the
+                - strong [ref=e439]: Options
+                - text: button on the right side of the toolbar to add or remove columns from the list. For example, you can add
+                - code [ref=e440]: service.name
+                - text: ","
+                - code [ref=e441]: http_method
+                - text: ","
+                - code [ref=e442]: response_status_code
+                - text: ", or"
+                - code [ref=e443]: event_type
+                - text: to display alongside each span.
+              - figure "Customize columns using the Options panel in List View" [ref=e444]:
+                - generic [ref=e452]:
+                  - img [ref=e453]
+                  - generic [ref=e456]: Customize columns using the Options panel in List View
+                - generic [ref=e457]: Customize columns using the Options panel in List View
+              - generic [ref=e458]:
+                - paragraph [ref=e459]: Note
+                - paragraph [ref=e461]: Timestamp column can't be removed.
+              - paragraph [ref=e462]:
+                - strong [ref=e463]: Number of Spans to display
+              - paragraph [ref=e464]: You can increase the number of spans displayed up to 200/page using the dropdown on the top right.
+              - figure "Increase the number of spans displayed in List View" [ref=e465]:
+                - generic [ref=e473]:
+                  - img [ref=e474]
+                  - generic [ref=e477]: Increase the number of spans displayed in List View
+                - generic [ref=e478]: Increase the number of spans displayed in List View
+              - generic [ref=e479]:
+                - paragraph [ref=e480]: Note
+                - paragraph [ref=e482]:
+                  - strong [ref=e483]: Group By
+                  - text: ","
+                  - strong [ref=e484]: Add Formula
+                  - text: ", and"
+                  - strong [ref=e485]: Order By
+                  - text: are not supported in List View or Trace View. Use Time Series or Table View for aggregation and grouping.
+              - heading "Traces View" [level=3] [ref=e486]:
+                - link "Traces View" [ref=e487] [cursor=pointer]:
+                  - /url: "#traces-view"
+              - paragraph [ref=e488]: The Traces View focuses on root spans — the starting span of each trace. Each row represents a single trace, showing the root service name, root operation name, root duration, number of spans, and Trace ID. Traces are sorted by descending root duration, which helps identify the longest running traces. You can increase the number of traces displayed up to 200/page using the dropdown on the top right.
+              - figure "Traces View — root duration and number of traces per page" [ref=e489]:
+                - generic [ref=e497]:
+                  - img [ref=e498]
+                  - generic [ref=e501]: Traces View — root duration and number of traces per page
+                - generic [ref=e502]: Traces View — root duration and number of traces per page
+              - heading "Time Series View" [level=3] [ref=e503]:
+                - link "Time Series View" [ref=e504] [cursor=pointer]:
+                  - /url: "#time-series-view"
+              - paragraph [ref=e505]: The Time Series View provides a graphical representation of trace data over time.
+              - figure "Timeseries View in Trace Explorer" [ref=e506]:
+                - generic [ref=e514]:
+                  - img [ref=e515]
+                  - generic [ref=e518]: Timeseries View in Trace Explorer
+                - generic [ref=e519]: Timeseries View in Trace Explorer
+              - heading "Table View" [level=3] [ref=e520]:
+                - link "Table View" [ref=e521] [cursor=pointer]:
+                  - /url: "#table-view"
+              - paragraph [ref=e522]: The Table View provides a tabular representation of the trace data.
+              - figure "Table View in Trace Explorer" [ref=e523]:
+                - generic [ref=e531]:
+                  - img [ref=e532]
+                  - generic [ref=e535]: Table View in Trace Explorer
+                - generic [ref=e536]: Table View in Trace Explorer
+              - paragraph [ref=e537]:
+                - strong [ref=e538]: Query Builder
+              - paragraph [ref=e539]:
+                - text: Both Time Series and Table views use the Query Builder for filtering, aggregation, and grouping. This lets you chart request rates or latency percentiles directly from trace data without needing a separate metrics pipeline. The Query Builder supports
+                - code [ref=e540]: count
+                - text: ","
+                - code [ref=e541]: avg
+                - text: ","
+                - code [ref=e542]: p99
+                - text: ", and more — with Group By, Having, Order By, and Limit. Refer to the"
+                - link "Query Builder documentation" [ref=e543] [cursor=pointer]:
+                  - /url: /docs/userguide/query-builder-v5
+                - text: for more details.
+              - figure "Query Builder in Time Series and Table views" [ref=e544]:
+                - generic [ref=e552]:
+                  - img [ref=e553]
+                  - generic [ref=e556]: Query Builder in Time Series and Table views
+                - generic [ref=e557]: Query Builder in Time Series and Table views
+              - heading "Trace Matching" [level=2] [ref=e558]:
+                - link "Trace Matching" [ref=e559] [cursor=pointer]:
+                  - /url: "#trace-matching"
+              - paragraph [ref=e560]:
+                - text: Trace Matching lets you define multiple span queries and combine them with
+                - strong [ref=e561]: trace-level operators
+                - text: — going beyond single-span filtering to find spans based on their relationships within a trace. Click
+                - strong [ref=e562]: Add Trace Matching
+                - text: below the filter bar to open the multi-query input.
+              - figure "Trace Matching — define multiple queries and combine with trace operators" [ref=e563]:
+                - generic [ref=e571]:
+                  - img [ref=e572]
+                  - generic [ref=e575]: Trace Matching — define multiple queries and combine with trace operators
+                - generic [ref=e576]: Trace Matching — define multiple queries and combine with trace operators
+              - paragraph [ref=e577]:
+                - text: Each query (A, B, C…) is a standard span filter. The
+                - strong [ref=e578]: Expression
+                - text: "field combines them using trace operators:"
+              - table [ref=e580]:
+                - rowgroup [ref=e581]:
+                  - row "Operator Symbol What it returns" [ref=e582]:
+                    - columnheader "Operator" [ref=e583]
+                    - columnheader "Symbol" [ref=e584]
+                    - columnheader "What it returns" [ref=e585]
+                - rowgroup [ref=e586]:
+                  - row "Has Direct Child => Spans from A that have a direct child matching B" [ref=e587]:
+                    - cell "Has Direct Child" [ref=e588]
+                    - cell "=>" [ref=e589]:
+                      - code [ref=e590]: =>
+                    - cell "Spans from A that have a direct child matching B" [ref=e591]:
+                      - text: Spans from A that have a
+                      - strong [ref=e592]: direct child
+                      - text: matching B
+                  - row "Has Descendant -> Spans from A that are ancestors (at any depth) of B" [ref=e593]:
+                    - cell "Has Descendant" [ref=e594]
+                    - cell "->" [ref=e595]:
+                      - code [ref=e596]: "->"
+                    - cell "Spans from A that are ancestors (at any depth) of B" [ref=e597]:
+                      - text: Spans from A that are
+                      - strong [ref=e598]: ancestors
+                      - text: (at any depth) of B
+                  - row "AND && Spans from A in traces that also contain spans matching B" [ref=e599]:
+                    - cell "AND" [ref=e600]
+                    - cell "&&" [ref=e601]:
+                      - code [ref=e602]: "&&"
+                    - cell "Spans from A in traces that also contain spans matching B" [ref=e603]:
+                      - text: Spans from A in traces that
+                      - strong [ref=e604]: also contain
+                      - text: spans matching B
+                  - row "OR || Union of spans from both A and B" [ref=e605]:
+                    - cell "OR" [ref=e606]
+                    - cell "||" [ref=e607]:
+                      - code [ref=e608]: "||"
+                    - cell "Union of spans from both A and B" [ref=e609]:
+                      - strong [ref=e610]: Union
+                      - text: of spans from both A and B
+                  - row "NOT A NOT B Spans from A in traces that do not contain any spans matching B" [ref=e611]:
+                    - cell "NOT" [ref=e612]
+                    - cell "A NOT B" [ref=e613]:
+                      - code [ref=e614]: A NOT B
+                    - cell "Spans from A in traces that do not contain any spans matching B" [ref=e615]:
+                      - text: Spans from A in traces that
+                      - strong [ref=e616]: do not contain
+                      - text: any spans matching B
+              - paragraph [ref=e617]:
+                - strong [ref=e618]: "Example — Has Descendant:"
+              - list [ref=e619]:
+                - listitem [ref=e620]:
+                  - text: "Query A:"
+                  - code [ref=e621]: service.name = 'frontend'
+                - listitem [ref=e622]:
+                  - text: "Query B:"
+                  - code [ref=e623]: service.name = 'customer' AND has_error = true
+                - listitem [ref=e624]:
+                  - text: "Expression:"
+                  - code [ref=e625]: A -> B
+                - listitem [ref=e626]:
+                  - strong [ref=e627]: "Result:"
+                  - text: Returns frontend spans that are ancestors of erroring customer spans at any depth.
+              - paragraph [ref=e628]:
+                - text: For full operator reference and more examples, see
+                - link "Multi-Query Analysis" [ref=e629] [cursor=pointer]:
+                  - /url: /docs/querying/multi-query-analysis
+                - text: .
+              - heading "Quick Filters" [level=2] [ref=e630]:
+                - link "Quick Filters" [ref=e631] [cursor=pointer]:
+                  - /url: "#quick-filters"
+              - paragraph [ref=e632]: The Traces Explorer provides quick filtering of spans using various parameters on the left panel. Select a filter category to expand it, set values, and the view updates automatically.
+              - figure "Quick Filters in Traces Explorer" [ref=e633]:
+                - generic [ref=e641]:
+                  - img [ref=e642]
+                  - generic [ref=e645]: Quick Filters in Traces Explorer
+                - generic [ref=e646]: Quick Filters in Traces Explorer
+              - group [ref=e647]:
+                - generic "Default Filters" [ref=e648]
+              - heading "Adding Custom Quick Filters" [level=3] [ref=e649]:
+                - link "Adding Custom Quick Filters" [ref=e650] [cursor=pointer]:
+                  - /url: "#adding-custom-quick-filters"
+              - paragraph [ref=e651]: The quick filters panel shows a set of default filters (like Duration, Service Name, HTTP Method, etc.), but you can add any span or resource attribute as a custom quick filter.
+              - paragraph [ref=e652]:
+                - text: "To customize: click the"
+                - strong [ref=e653]: settings icon
+                - text: at the top-right of the quick filters panel, then select
+                - strong [ref=e654]: Edit quick filters
+                - text: . This opens an editor showing your currently added filters and all other available attributes. Search for any attribute and add it to the panel.
+              - figure "Edit quick filters — added filters appear at the top, all other available attributes are listed below" [ref=e655]:
+                - generic [ref=e663]:
+                  - img [ref=e664]
+                  - generic [ref=e667]: Edit quick filters — added filters appear at the top, all other available attributes are listed below
+                - generic [ref=e668]: Edit quick filters — added filters appear at the top, all other available attributes are listed below
+              - generic [ref=e669]:
+                - paragraph [ref=e670]: Info
+                - paragraph [ref=e672]:
+                  - text: Only users with the
+                  - strong [ref=e673]: Admin
+                  - text: role can edit quick filters. Users with the Viewer or Editor role do not have access to this feature.
+              - heading "Bottom Bar" [level=2] [ref=e674]:
+                - link "Bottom Bar" [ref=e675] [cursor=pointer]:
+                  - /url: "#bottom-bar"
+              - paragraph [ref=e676]: The bar at the bottom of each view provides quick actions for saving views, creating alerts, and adding panels to a dashboard.
+              - figure "Bottom bar — Save view, Create an Alert, Add to Dashboard" [ref=e677]:
+                - generic [ref=e685]:
+                  - img [ref=e686]
+                  - generic [ref=e689]: Bottom bar — Save view, Create an Alert, Add to Dashboard
+                - generic [ref=e690]: Bottom bar — Save view, Create an Alert, Add to Dashboard
+              - list [ref=e691]:
+                - listitem [ref=e692]:
+                  - strong [ref=e693]: Save this view
+                  - text: — preserves your current filter and query configuration as a named view for quick access later. Click
+                  - strong [ref=e694]: Save this view
+                  - text: ", enter a descriptive label, and confirm. You can access saved views from the"
+                  - strong [ref=e695]: Select a view
+                  - text: dropdown at the bottom of the Explorer or from the
+                  - strong [ref=e696]: Views
+                  - text: tab at the top of the page.
+                - listitem [ref=e697]:
+                  - strong [ref=e698]: Create an Alert
+                  - text: — instantly creates a
+                  - link "Trace based Alert" [ref=e699] [cursor=pointer]:
+                    - /url: /docs/alerts-management/trace-based-alerts
+                  - text: based on the current filters.
+                - listitem [ref=e700]:
+                  - strong [ref=e701]: Add to Dashboard
+                  - text: — adds the current panel to a new or existing dashboard.
+              - heading "Managing Saved Views" [level=3] [ref=e702]:
+                - link "Managing Saved Views" [ref=e703] [cursor=pointer]:
+                  - /url: "#managing-saved-views"
+              - paragraph [ref=e704]:
+                - text: To manage all your saved views, switch to the
+                - strong [ref=e705]: Views
+                - text: "tab at the top of the page. From here you can:"
+              - list [ref=e706]:
+                - listitem [ref=e707]:
+                  - strong [ref=e708]: Update
+                  - text: ": Make changes to a loaded view, then click"
+                  - strong [ref=e709]: Update this View
+                - listitem [ref=e710]:
+                  - strong [ref=e711]: Rename
+                  - text: ": Search for the view and click the edit icon to change its label"
+                - listitem [ref=e712]:
+                  - strong [ref=e713]: Delete
+                  - text: ": Search for the view and click the delete icon to remove it"
+              - generic [ref=e714]:
+                - paragraph [ref=e715]: Info
+                - paragraph [ref=e717]:
+                  - text: Saved views are shared across your organization. All users can access them, but only
+                  - strong [ref=e718]: Editor
+                  - text: or
+                  - strong [ref=e719]: Admin
+                  - text: roles can edit or delete views.
+              - figure "Views page — manage all saved trace views" [ref=e720]:
+                - generic [ref=e728]:
+                  - img [ref=e729]
+                  - generic [ref=e732]: Views page — manage all saved trace views
+                - generic [ref=e733]: Views page — manage all saved trace views
+              - generic [ref=e734]:
+                - text: Need help? Reach out via
+                - link "community Slack" [ref=e735] [cursor=pointer]:
+                  - /url: https://noirai.app/slack
+                - text: or open an issue on
+                - link "GitHub" [ref=e736] [cursor=pointer]:
+                  - /url: https://github.com/no1rstack/noirai/issues
+                - text: .
+            - generic [ref=e737]:
+              - generic [ref=e738]: NoirAI Documentation
+              - link "Edit on GitHub" [ref=e739] [cursor=pointer]:
+                - /url: https://github.com/no1rstack/noirai-web
+          - generic [ref=e740]:
+            - link "Previous Trace Details" [ref=e742] [cursor=pointer]:
+              - /url: /docs/userguide/span-details
+              - paragraph [ref=e743]: Previous
+              - paragraph [ref=e744]: Trace Details
+            - link "Next Trace Explorer" [ref=e746] [cursor=pointer]:
+              - /url: /docs/userguide/traces
+              - paragraph [ref=e747]: Next
+              - paragraph [ref=e748]: Trace Explorer
+        - complementary [ref=e749]:
+          - generic [ref=e750]:
+            - paragraph [ref=e751]: On this page
+            - list [ref=e752]:
+              - listitem [ref=e753]:
+                - link "Prerequisites" [ref=e754] [cursor=pointer]:
+                  - /url: "#prerequisites"
+              - listitem [ref=e755]:
+                - link "Introduction" [ref=e756] [cursor=pointer]:
+                  - /url: "#introduction"
+              - listitem [ref=e757]:
+                - link "List View" [ref=e758] [cursor=pointer]:
+                  - /url: "#list-view"
+              - listitem [ref=e759]:
+                - link "Traces View" [ref=e760] [cursor=pointer]:
+                  - /url: "#traces-view"
+              - listitem [ref=e761]:
+                - link "Time Series View" [ref=e762] [cursor=pointer]:
+                  - /url: "#time-series-view"
+              - listitem [ref=e763]:
+                - link "Table View" [ref=e764] [cursor=pointer]:
+                  - /url: "#table-view"
+              - listitem [ref=e765]:
+                - link "Trace Matching" [ref=e766] [cursor=pointer]:
+                  - /url: "#trace-matching"
+              - listitem [ref=e767]:
+                - link "Quick Filters" [ref=e768] [cursor=pointer]:
+                  - /url: "#quick-filters"
+              - listitem [ref=e769]:
+                - link "Adding Custom Quick Filters" [ref=e770] [cursor=pointer]:
+                  - /url: "#adding-custom-quick-filters"
+              - listitem [ref=e771]:
+                - link "Bottom Bar" [ref=e772] [cursor=pointer]:
+                  - /url: "#bottom-bar"
+              - listitem [ref=e773]:
+                - link "Managing Saved Views" [ref=e774] [cursor=pointer]:
+                  - /url: "#managing-saved-views"

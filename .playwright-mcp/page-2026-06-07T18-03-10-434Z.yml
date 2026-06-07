@@ -1,0 +1,170 @@
+- generic [ref=e87]:
+  - generic [ref=e88]:
+    - generic [ref=e90]:
+      - generic [ref=e93]:
+        - generic [ref=e94] [cursor=pointer]: "[ N ]"
+        - text: NOIRAI SYSTEM_VERSION // [ V1 ]
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - text: // PRIMARY
+            - generic [ref=e100] [cursor=pointer]:
+              - img [ref=e102]
+              - generic: "[01]"
+            - generic [ref=e109] [cursor=pointer]:
+              - img [ref=e111]
+              - generic:
+                - text: "[02]"
+                - generic: alert_policy
+            - generic [ref=e115] [cursor=pointer]:
+              - img [ref=e117]
+              - generic:
+                - text: "[03]"
+                - generic: telemetry_views
+          - generic [ref=e120]:
+            - generic [ref=e123] [cursor=pointer]:
+              - img [ref=e125]
+              - generic: "[00]"
+            - generic [ref=e129] [cursor=pointer]:
+              - img [ref=e131]
+              - generic:
+                - text: "[00]"
+                - generic: signal_explorer
+            - generic [ref=e135] [cursor=pointer]:
+              - img [ref=e137]
+              - generic:
+                - text: "[00]"
+                - generic: distributed_analysis
+            - generic [ref=e141] [cursor=pointer]:
+              - img [ref=e143]
+              - generic: "[00]"
+        - generic [ref=e147]:
+          - generic [ref=e150] [cursor=pointer]:
+            - img [ref=e152]
+            - text: "[00]"
+          - generic [ref=e157] [cursor=pointer]:
+            - img [ref=e159]
+            - text: "[00]"
+    - main [ref=e163]:
+      - generic [ref=e167]:
+        - generic [ref=e171]:
+          - img [ref=e172]
+          - text: Home
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - img [ref=e179]
+              - heading "Hello there, Welcome to your NoirAI workspace" [level=2] [ref=e187]
+              - paragraph [ref=e188]:
+                - text: You’re not sending any data yet.
+                - text: NoirAI is so much better with your data ⎯ start by sending your telemetry data to NoirAI.
+              - generic [ref=e191]:
+                - img [ref=e193]
+                - generic [ref=e201]:
+                  - generic [ref=e202]: Workspace Initialized
+                  - list "Workspace readiness checklist" [ref=e203]:
+                    - listitem [ref=e204]:
+                      - generic [ref=e205]: ✓
+                      - generic [ref=e206]: Workspace Created
+                    - listitem [ref=e207]:
+                      - generic [ref=e208]: ✓
+                      - generic [ref=e209]: Authentication Ready
+                    - listitem [ref=e210]:
+                      - generic [ref=e211]: ✓
+                      - generic [ref=e212]: Storage Connected
+                  - button "Connect First Data Source" [ref=e214] [cursor=pointer]:
+                    - img [ref=e215]
+                    - text: Connect First Data Source
+            - generic [ref=e217]:
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - generic [ref=e223]: EXP-01
+                  - generic [ref=e224]:
+                    - generic [ref=e225]: Filter and save views with the Explorer
+                    - generic [ref=e226]: Explore your data, and save useful views for everyone in the team.
+                - generic [ref=e227]:
+                  - button "Open Logs Explorer" [ref=e228] [cursor=pointer]:
+                    - img [ref=e229]
+                    - text: Open Logs Explorer
+                  - button "Open Traces Explorer" [ref=e231] [cursor=pointer]:
+                    - img [ref=e232]
+                    - text: Open Traces Explorer
+                  - button "Open Metrics Explorer" [ref=e234] [cursor=pointer]:
+                    - img [ref=e235]
+                    - text: Open Metrics Explorer
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - generic [ref=e242]: DB-02
+                  - generic [ref=e243]:
+                    - generic [ref=e244]: Create a dashboard
+                    - generic [ref=e245]: Create a dashboard to visualize your data.
+                - button "Create dashboard" [ref=e247] [cursor=pointer]:
+                  - img [ref=e248]
+                  - text: Create dashboard
+              - generic [ref=e252]:
+                - generic [ref=e253]:
+                  - generic [ref=e255]: AL-03
+                  - generic [ref=e256]:
+                    - generic [ref=e257]: Add an alert
+                    - generic [ref=e258]: Create bespoke alerting rules to suit your needs.
+                - button "Create an alert" [ref=e260] [cursor=pointer]:
+                  - img [ref=e261]
+                  - text: Create an alert
+          - generic [ref=e264]:
+            - generic [ref=e267]:
+              - generic [ref=e268]:
+                - generic [ref=e269]:
+                  - generic [ref=e270]:
+                    - generic [ref=e271]: Build your observability base
+                    - generic [ref=e272]: Step 1 / 8
+                  - progressbar [ref=e275]
+                - generic [ref=e277]:
+                  - generic [ref=e278]:
+                    - generic [ref=e279]: Completed
+                    - generic [ref=e280]:
+                      - text: ✓
+                      - generic [ref=e281]: Set up your workspace
+                  - generic [ref=e282]:
+                    - generic [ref=e283]: What's Next
+                    - generic [ref=e284]:
+                      - generic [ref=e286] [cursor=pointer]: Add your first data source
+                      - generic [ref=e288] [cursor=pointer]: Send your logs
+                      - generic [ref=e290] [cursor=pointer]: Send your traces
+                      - generic [ref=e292] [cursor=pointer]: Send your metrics
+                      - generic [ref=e294] [cursor=pointer]: Setup Alerts
+                      - generic [ref=e296] [cursor=pointer]: Setup Saved Views
+                      - generic [ref=e298] [cursor=pointer]: Setup Dashboards
+              - generic [ref=e300]:
+                - generic [ref=e301]: WORKSPACE_BOUNDARY_V1 // ONBOARDING_STATUS
+                - generic [ref=e302]: HOME_SCOPE // TELEMETRY_SETUP
+                - generic [ref=e303]:
+                  - generic [ref=e304]: "[ STEP_01 ] Data Source"
+                  - generic [ref=e305]: "[ STEP_02 ] Ingestion"
+                  - generic [ref=e306]: "[ STEP_03 ] Alerts"
+                - generic [ref=e307]:
+                  - generic [ref=e308]:
+                    - generic [ref=e309]: Home Workspace
+                    - generic [ref=e310]: "● STATUS: IN_PROGRESS"
+                  - generic [ref=e311]:
+                    - generic [ref=e312]:
+                      - generic [ref=e313]: Setup_Tools
+                      - generic [ref=e314]:
+                        - generic [ref=e315]: logs_explorer
+                        - generic [ref=e316]: traces_explorer
+                        - generic [ref=e317]: metrics_explorer
+                    - generic [ref=e318]:
+                      - generic [ref=e319]: Recent_Actions
+                      - generic [ref=e320]:
+                        - generic [ref=e321]: connect_data_source
+                        - generic [ref=e322]: create_dashboard
+                    - generic [ref=e323]:
+                      - generic [ref=e324]: Reference_Docs
+                      - generic [ref=e325]:
+                        - generic [ref=e326]: data-ingestion-guide
+                        - generic [ref=e327]: alerting-quickstart
+                  - generic [ref=e328]:
+                    - generic [ref=e329]: "! ONBOARDING_GAP_REPORT"
+                    - generic [ref=e330]: "T: 14:02:44 // UTC"
+                    - generic [ref=e331]: "ACTION_REQUIRED: No telemetry detected yet for this workspace. Complete`ADD_DATA_SOURCE`to unlock dashboards, alerts, and saved views."
+            - button "I'll do this later" [ref=e334] [cursor=pointer]
+  - region "Notifications alt+T"

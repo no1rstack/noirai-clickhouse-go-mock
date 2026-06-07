@@ -1,0 +1,923 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic "Section navigation" [ref=e3]:
+      - button "Previous section" [disabled] [ref=e4]:
+        - img [ref=e5]
+      - generic [ref=e726]:
+        - button "Go to section 1" [ref=e727]
+        - button "Go to section 2" [ref=e729]
+        - button "Go to section 3" [ref=e731]
+        - button "Go to section 4" [ref=e733]
+        - button "Go to section 5" [ref=e735]
+        - button "Go to section 6" [ref=e737]
+        - button "Go to section 7" [ref=e739]
+      - button "Next section" [ref=e7]:
+        - img [ref=e8]
+    - generic [ref=e11]:
+      - generic [ref=e13]:
+        - generic:
+          - generic: LN_DE_45.09
+          - generic: SYS_V1.0.48
+        - generic [ref=e18]:
+          - generic [ref=e20]: SECTION_01 // OBSERVABILITY
+          - generic [ref=e21]:
+            - generic [ref=e22]:
+              - generic [ref=e23]: OBSERVE
+              - generic [ref=e24] [cursor=pointer]:
+                - generic [ref=e25]:
+                  - generic [ref=e741]: O
+                  - generic [ref=e742]: O
+                  - generic [ref=e745]: O
+                - generic [ref=e28]:
+                  - generic [ref=e746]: B
+                  - generic [ref=e747]: B
+                  - generic [ref=e750]: B
+                - generic [ref=e31]:
+                  - generic [ref=e751]: S
+                  - generic [ref=e752]: S
+                  - generic [ref=e755]: S
+                - generic [ref=e34]:
+                  - generic [ref=e756]: E
+                  - generic [ref=e757]: E
+                  - generic [ref=e760]: E
+                - generic [ref=e37]:
+                  - generic [ref=e761]: R
+                  - generic [ref=e762]: R
+                  - generic [ref=e765]: R
+                - generic [ref=e40]:
+                  - generic [ref=e766]: V
+                  - generic [ref=e767]: V
+                  - generic [ref=e770]: V
+                - generic [ref=e43]:
+                  - generic [ref=e771]: E
+                  - generic [ref=e772]: E
+                  - generic [ref=e775]: E
+              - button "Unmute sound effects" [ref=e47]:
+                - generic [ref=e48]: Sound Off
+            - heading "NOIR AI Observability Platform" [level=2] [ref=e49]
+          - paragraph [ref=e51]:
+            - text: Metrics, traces, and logs unified in one platform. Where every service is monitored, correlated, and understood.
+            - generic [ref=e52]: — REAL SIGNALS SURFACE.
+          - generic [ref=e53]:
+            - link "[ CMD + O ] Open Dashboard" [ref=e54] [cursor=pointer]:
+              - /url: https://app.noirai.app
+              - generic [ref=e55]: "[ CMD + O ]"
+              - generic [ref=e56]: Open Dashboard
+              - img [ref=e57]
+            - link "[ BILLING ] View Pricing" [ref=e60] [cursor=pointer]:
+              - /url: /pricing
+              - generic [ref=e61]: "[ BILLING ]"
+              - generic [ref=e62]: View Pricing
+              - img [ref=e63]
+            - link "02. VIEW DATA Trace Explorer" [ref=e65] [cursor=pointer]:
+              - /url: https://app.noirai.app/traces-explorer
+              - generic [ref=e66]: 02. VIEW DATA
+              - generic [ref=e67]: Trace Explorer
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]: LATENCY
+              - text: 00ms_ref
+            - generic [ref=e73]:
+              - generic [ref=e74]: STATUS
+              - text: "[ NOMINAL ]"
+            - generic [ref=e75]:
+              - generic [ref=e76]: LOCATION
+              - text: 45.09N / 93.26W
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - text: Built for precision
+              - text: © 2026 Noir Stack
+            - generic [ref=e81]: "N"
+      - generic [ref=e83]:
+        - generic [ref=e86]:
+          - generic [ref=e88]: 02 // Telemetry Signals
+          - heading "LOG MANAGEMENT" [level=2] [ref=e90]:
+            - text: LOG
+            - text: MANAGEMENT
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - article [ref=e93]:
+              - generic [ref=e94]:
+                - generic [ref=e95]: "[01]"
+                - generic [ref=e97]: PROC_V2
+              - heading "LOG MANAGEMENT" [level=3] [ref=e98]
+              - paragraph [ref=e100]: Logs are ingested at scale, parsed into structured fields, and queried in real time with full attribute filtering.
+            - article [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103]: "[02]"
+                - generic [ref=e105]: PROC_V2
+              - heading "METRIC SIGNALS" [level=3] [ref=e106]
+              - generic:
+                - paragraph: Raw time-series data is aggregated into actionable signals, with noise filtered at the ingestion edge.
+            - article [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e109]: "[03]"
+                - generic [ref=e111]: PROC_V2
+              - heading "TRACE-LINKED CONTEXT" [level=3] [ref=e112]
+              - generic:
+                - paragraph: Every log and metric query links back to the originating trace span, so root cause always has a real execution path.
+            - article [ref=e113]:
+              - generic [ref=e114]:
+                - generic [ref=e115]: "[04]"
+                - generic [ref=e117]: PROC_V2
+              - heading "INSTANT INSIGHTS" [level=3] [ref=e118]
+              - generic:
+                - paragraph: The explorer resolves to correlated signals and next-step diagnostics, not abstract charts requiring re-interpretation.
+          - generic [ref=e120]:
+            - generic [ref=e123]:
+              - paragraph [ref=e125]: System_Protocol // Operator_Handoff
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - paragraph [ref=e129]: Execution_Mode
+                  - heading "log ingestion active" [level=4] [ref=e130]
+                - generic [ref=e132]:
+                  - paragraph [ref=e133]: Observability_Node
+                  - heading "attribute parsing" [level=4] [ref=e134]
+              - generic [ref=e136]:
+                - generic [ref=e137]:
+                  - paragraph [ref=e138]: 91%
+                  - paragraph [ref=e140]: indexed
+                - generic [ref=e141]:
+                  - paragraph [ref=e142]: 68 active
+                  - paragraph [ref=e144]: log streams
+                - generic [ref=e145]:
+                  - paragraph [ref=e146]: low
+                  - paragraph [ref=e148]: parse errors
+              - generic [ref=e149]:
+                - paragraph [ref=e150]: Trace_Evidence_Stream
+                - generic [ref=e151]:
+                  - generic [ref=e152]:
+                    - generic [ref=e153]: "[00]"
+                    - generic [ref=e154]: "[INGEST] service=checkout-api log_lines=4821"
+                  - generic [ref=e155]:
+                    - generic [ref=e156]: "[01]"
+                    - generic [ref=e157]: "[PARSE] fields=status,duration,trace_id extracted"
+                  - generic [ref=e158]:
+                    - generic [ref=e159]: "[02]"
+                    - generic [ref=e160]: "[FILTER] severity=ERROR count=14 forwarded"
+                  - generic [ref=e161]:
+                    - generic [ref=e162]: "[03]"
+                    - generic [ref=e163]: "[INDEX] full-text index updated in 42ms"
+            - generic [ref=e164]:
+              - generic [ref=e165]: DATA_STREAM_OK
+              - generic [ref=e166]: REF_INTEL_24.08
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - generic [ref=e172]: 03 // Telemetry Pillars
+            - heading "FULL STACK" [level=2] [ref=e174]:
+              - text: FULL
+              - text: STACK
+          - generic [ref=e175]:
+            - paragraph [ref=e176]: Unified ingestion for metrics, traces, and logs over OpenTelemetry.
+            - generic [ref=e177]: OTEL_NATIVE // V0.56.0
+        - generic [ref=e178]:
+          - article [ref=e179]:
+            - generic [ref=e181]: "[01]"
+            - heading "UNIFIED PIPELINE" [level=3] [ref=e183]:
+              - generic [ref=e184]: UNIFIED
+              - generic [ref=e185]: PIPELINE
+            - generic [ref=e187]:
+              - generic [ref=e188]: "// SUB_PROTOCOL: UNIFIED"
+              - paragraph [ref=e189]: Metrics, traces, and logs resolve through one OpenTelemetry-native pipeline rather than separate collection agents.
+          - article [ref=e191]:
+            - generic [ref=e193]: "[02]"
+            - heading "OTEL NATIVE" [level=3] [ref=e195]:
+              - generic [ref=e196]: OTEL
+              - generic [ref=e197]: NATIVE
+            - generic [ref=e199]:
+              - generic [ref=e200]: "// SUB_PROTOCOL: OTEL"
+              - paragraph [ref=e201]: All telemetry signals share the same ingestion, storage, and query path with zero vendor lock-in.
+          - article [ref=e202]:
+            - generic [ref=e204]: "[03]"
+            - heading "CORRELATION ENGINE" [level=3] [ref=e206]:
+              - generic [ref=e207]: CORRELATION
+              - generic [ref=e208]: ENGINE
+            - generic [ref=e210]:
+              - generic [ref=e211]: "// SUB_PROTOCOL: CORRELATION"
+              - paragraph [ref=e212]: Spans, logs, and metrics are correlated by trace ID, so investigation reads as one continuous diagnostic sequence.
+          - article [ref=e213]:
+            - generic [ref=e215]: "[04]"
+            - heading "CONSISTENT RETENTION" [level=3] [ref=e217]:
+              - generic [ref=e218]: CONSISTENT
+              - generic [ref=e219]: RETENTION
+            - generic [ref=e221]:
+              - generic [ref=e222]: "// SUB_PROTOCOL: RETENTION"
+              - paragraph [ref=e223]: Every signal type inherits the same retention policy, query interface, and access controls across the platform.
+        - generic [ref=e224]:
+          - generic [ref=e225]: SECTION_3.0
+          - generic [ref=e226]: MODALITY_SYNC_ACTIVE
+          - generic [ref=e227]: REF_402.09
+      - generic [ref=e229]:
+        - generic [ref=e231]:
+          - generic [ref=e233]: 04 // Organisation Model
+          - heading "TEAM BOUNDARIES" [level=2] [ref=e235]:
+            - text: TEAM
+            - text: BOUNDARIES
+        - generic [ref=e236]:
+          - generic [ref=e237]:
+            - article [ref=e238]:
+              - generic [ref=e239]:
+                - generic [ref=e240]: "[01]"
+                - generic [ref=e242]: ISOLATION
+              - heading "ORG ISOLATION" [level=3] [ref=e243]
+              - paragraph [ref=e245]: Data is segmented into explicit organisations, so dashboards, alerts, and pipelines stay within defined team boundaries.
+            - article [ref=e246]:
+              - generic [ref=e247]:
+                - generic [ref=e248]: "[02]"
+                - generic [ref=e250]: SCOPED
+              - heading "SCOPED VIEWS" [level=3] [ref=e251]
+              - generic:
+                - paragraph: The active org decides what telemetry is visible to each user, while neighbouring team scopes remain partitioned.
+            - article [ref=e252]:
+              - generic [ref=e253]:
+                - generic [ref=e254]: "[03]"
+                - generic [ref=e256]: RETENTION
+              - heading "CONTROLLED RETENTION" [level=3] [ref=e257]
+              - generic:
+                - paragraph: Retention windows are configured per org rather than bleeding across teams or service boundaries.
+            - article [ref=e258]:
+              - generic [ref=e259]:
+                - generic [ref=e260]: "[04]"
+                - generic [ref=e262]: INGESTION
+              - heading "SCOPED INGESTION" [level=3] [ref=e263]
+              - generic:
+                - paragraph: Only validated, scoped telemetry is admitted per org, so each team's data pipeline is one bounded, auditable set.
+          - generic [ref=e265]:
+            - generic [ref=e268]:
+              - generic [ref=e269]:
+                - paragraph [ref=e272]: "Boundary_Visualizer_V1 // CTRL_ID: REGULATED_ANALYSIS"
+                - generic [ref=e273]: REGULATED_ANALYSIS_REF
+              - generic [ref=e275]:
+                - generic [ref=e276]:
+                  - paragraph [ref=e279]: Boundary_Visualizer_V1 // REGULATED_ANALYSIS
+                  - generic [ref=e280]: Finance_SCOPE // REF_04
+                - generic [ref=e281]:
+                  - navigation [ref=e282]:
+                    - button "[ SLOT_01 ] Finance" [ref=e283]:
+                      - generic [ref=e284]: "[ SLOT_01 ]"
+                      - generic [ref=e285]: Finance
+                    - button "[ SLOT_02 ] Research" [ref=e286]:
+                      - generic [ref=e287]: "[ SLOT_02 ]"
+                      - generic [ref=e288]: Research
+                    - button "[ SLOT_03 ] Operations" [ref=e289]:
+                      - generic [ref=e290]: "[ SLOT_03 ]"
+                      - generic [ref=e291]: Operations
+                  - generic [ref=e294]:
+                    - generic [ref=e295]:
+                      - generic [ref=e296]:
+                        - paragraph [ref=e297]: Active_Isolation_Zone
+                        - heading "Finance Workspace" [level=3] [ref=e298]
+                      - generic [ref=e299]:
+                        - generic [ref=e300]: "● STATUS: LOCKED"
+                        - text: VER_ISO_PROT_V4
+                    - generic [ref=e301]:
+                      - generic [ref=e302]:
+                        - paragraph [ref=e303]: Scoped_Tools
+                        - generic [ref=e304]:
+                          - generic [ref=e306]: sql_connector
+                          - generic [ref=e308]: ledger_reader
+                          - generic [ref=e310]: charts
+                      - generic [ref=e311]:
+                        - paragraph [ref=e312]: Memory_Leads
+                        - generic [ref=e313]:
+                          - generic [ref=e315]: quarter_close
+                          - generic [ref=e317]: forecast_deltas
+                      - generic [ref=e318]:
+                        - paragraph [ref=e319]: Static_Docs
+                        - generic [ref=e320]:
+                          - generic [ref=e322]: budget-2026.pdf
+                          - generic [ref=e324]: ops-variance.md
+                    - generic [ref=e325]:
+                      - generic [ref=e327]:
+                        - paragraph [ref=e328]: "! BOUNDARY_VIOLATION_REPORT"
+                        - generic [ref=e329]: "T: 14:02:44 // UTC"
+                      - paragraph [ref=e330]:
+                        - text: "ACCESS_DENIED: Attempted cross-workspace pull to"
+                        - generic [ref=e331]: "`RESEARCH_CORPUS`"
+                        - text: . Thread terminated by policy engine.
+                  - generic [ref=e334]: SYNC_OK // TERMINAL_V1.0.48
+            - generic [ref=e336]:
+              - generic [ref=e337]: "ISO_ZONE: 1"
+              - generic [ref=e338]: DATA_SEGMENTATION_ACTIVE
+        - generic [ref=e341]: Noir_Boundaries_04
+      - generic [ref=e342]:
+        - generic [ref=e347]:
+          - generic [ref=e348]: HANDOFF_SEQUENCE_05
+          - generic [ref=e350]: Validating Context...
+        - generic [ref=e351]: LATENCY_00ms_REF
+        - generic [ref=e352]: ZONE_ISOLATION_OK
+      - generic [ref=e354]:
+        - generic [ref=e356]:
+          - generic [ref=e358]: 05 // Access Layer
+          - heading "ACCESS CONTROL" [level=2] [ref=e360]:
+            - text: ACCESS
+            - text: CONTROL
+        - generic [ref=e361]:
+          - article [ref=e362]:
+            - generic [ref=e363]:
+              - generic [ref=e364]:
+                - generic [ref=e365]: "[ 01 ]"
+                - generic [ref=e367]: GATE_AUTH_GATE
+              - heading "ROLE-BASED ACCESS" [level=3] [ref=e368]:
+                - generic [ref=e369]: ROLE-BASED
+                - generic [ref=e370]: ACCESS
+              - paragraph [ref=e371]: Access enters NOIR AI as a role assignment, and the permission layer resolves viewer, editor, or admin before any data path opens.
+            - generic [ref=e374]:
+              - generic [ref=e375]:
+                - paragraph [ref=e378]: GOVERNANCE_GATE // DECISION_STREAM
+                - generic [ref=e379]: "TRACE_ID: RT_824"
+              - generic [ref=e383]:
+                - generic [ref=e384]:
+                  - generic [ref=e385]:
+                    - generic [ref=e386]: Node_Input
+                    - generic [ref=e387]: Role-Based Access
+                  - generic [ref=e388]:
+                    - generic [ref=e389]: Node_Input
+                    - generic [ref=e390]: API Keys
+                - generic [ref=e392]:
+                  - generic [ref=e395]: Decision_Layer
+                  - heading "Governance Gate" [level=4] [ref=e396]
+                  - generic [ref=e398]: ● Monitoring_Live
+                - generic [ref=e399]:
+                  - generic [ref=e400]:
+                    - generic [ref=e401]: Node_Input
+                    - generic [ref=e402]: Workspace Isolation
+                  - generic [ref=e403]:
+                    - generic [ref=e404]: Node_Input
+                    - generic [ref=e405]: Endpoint Permissions
+                - img
+                - paragraph [ref=e407]: Policy_Handoff // Secure_Governance
+          - article [ref=e410]:
+            - generic [ref=e411]:
+              - generic [ref=e412]:
+                - generic [ref=e413]: "[ 02 ]"
+                - generic [ref=e415]: GATE_SCOPE_GATE
+              - heading "ORG-SCOPED GATES" [level=3] [ref=e416]:
+                - generic [ref=e417]: ORG-SCOPED
+                - generic [ref=e418]: GATES
+              - paragraph [ref=e419]: The organisation boundary is a first-class permission gate, preventing dashboards and data from crossing team lines.
+            - generic [ref=e422]:
+              - generic [ref=e423]:
+                - paragraph [ref=e426]: GOVERNANCE_GATE // DECISION_STREAM
+                - generic [ref=e427]: "TRACE_ID: RT_836"
+              - generic [ref=e431]:
+                - generic [ref=e432]:
+                  - generic [ref=e433]:
+                    - generic [ref=e434]: Node_Input
+                    - generic [ref=e435]: Role-Based Access
+                  - generic [ref=e436]:
+                    - generic [ref=e437]: Node_Input
+                    - generic [ref=e438]: API Keys
+                - generic [ref=e440]:
+                  - generic [ref=e443]: Decision_Layer
+                  - heading "Governance Gate" [level=4] [ref=e444]
+                  - generic [ref=e446]: ● Monitoring_Live
+                - generic [ref=e447]:
+                  - generic [ref=e448]:
+                    - generic [ref=e449]: Node_Input
+                    - generic [ref=e450]: Workspace Isolation
+                  - generic [ref=e451]:
+                    - generic [ref=e452]: Node_Input
+                    - generic [ref=e453]: Endpoint Permissions
+                - img
+                - paragraph [ref=e455]: Policy_Handoff // Secure_Governance
+          - article [ref=e457]:
+            - generic [ref=e458]:
+              - generic [ref=e459]:
+                - generic [ref=e460]: "[ 03 ]"
+                - generic [ref=e462]: GATE_POLICY_GATE
+              - heading "SSO ENFORCEMENT" [level=3] [ref=e463]:
+                - generic [ref=e464]: SSO
+                - generic [ref=e465]: ENFORCEMENT
+              - paragraph [ref=e466]: SSO providers and token validators authenticate the request before the access layer grants any query path.
+            - generic [ref=e469]:
+              - generic [ref=e470]:
+                - paragraph [ref=e473]: GOVERNANCE_GATE // DECISION_STREAM
+                - generic [ref=e474]: "TRACE_ID: RT_848"
+              - generic [ref=e478]:
+                - generic [ref=e479]:
+                  - generic [ref=e480]:
+                    - generic [ref=e481]: Node_Input
+                    - generic [ref=e482]: Role-Based Access
+                  - generic [ref=e483]:
+                    - generic [ref=e484]: Node_Input
+                    - generic [ref=e485]: API Keys
+                - generic [ref=e487]:
+                  - generic [ref=e490]: Decision_Layer
+                  - heading "Governance Gate" [level=4] [ref=e491]
+                  - generic [ref=e493]: ● Monitoring_Live
+                - generic [ref=e494]:
+                  - generic [ref=e495]:
+                    - generic [ref=e496]: Node_Input
+                    - generic [ref=e497]: Workspace Isolation
+                  - generic [ref=e498]:
+                    - generic [ref=e499]: Node_Input
+                    - generic [ref=e500]: Endpoint Permissions
+                - img
+                - paragraph [ref=e502]: Policy_Handoff // Secure_Governance
+          - article [ref=e504]:
+            - generic [ref=e505]:
+              - generic [ref=e506]:
+                - generic [ref=e507]: "[ 04 ]"
+                - generic [ref=e509]: GATE_AUDIT_GATE
+              - heading "AUDITABLE CONTROL" [level=3] [ref=e510]:
+                - generic [ref=e511]: AUDITABLE
+                - generic [ref=e512]: CONTROL
+              - paragraph [ref=e513]: Every access decision is logged, so allow and deny outcomes are auditable rather than implicit.
+            - generic [ref=e516]:
+              - generic [ref=e517]:
+                - paragraph [ref=e520]: GOVERNANCE_GATE // DECISION_STREAM
+                - generic [ref=e521]: "TRACE_ID: RT_860"
+              - generic [ref=e525]:
+                - generic [ref=e526]:
+                  - generic [ref=e527]:
+                    - generic [ref=e528]: Node_Input
+                    - generic [ref=e529]: Role-Based Access
+                  - generic [ref=e530]:
+                    - generic [ref=e531]: Node_Input
+                    - generic [ref=e532]: API Keys
+                - generic [ref=e534]:
+                  - generic [ref=e537]: Decision_Layer
+                  - heading "Governance Gate" [level=4] [ref=e538]
+                  - generic [ref=e540]: ● Monitoring_Live
+                - generic [ref=e541]:
+                  - generic [ref=e542]:
+                    - generic [ref=e543]: Node_Input
+                    - generic [ref=e544]: Workspace Isolation
+                  - generic [ref=e545]:
+                    - generic [ref=e546]: Node_Input
+                    - generic [ref=e547]: Endpoint Permissions
+                - img
+                - paragraph [ref=e549]: Policy_Handoff // Secure_Governance
+        - generic [ref=e551]:
+          - generic [ref=e552]: DECISION_ENGINE_OUTPUT // TRACE_AUDIT
+          - generic [ref=e553]: SECURE_GATE_V1.0.48
+      - generic [ref=e554]:
+        - generic:
+          - generic: CONTROL_HANDOFF
+          - generic: DEVELOPER_SURFACE
+      - generic [ref=e557]:
+        - generic: INTERFACE
+        - generic [ref=e559]:
+          - generic [ref=e561]: 06 // Developer Surface
+          - heading "DEVELOPER INTERFACES" [level=2] [ref=e563]:
+            - text: DEVELOPER
+            - text: INTERFACES
+        - generic [ref=e564]:
+          - generic [ref=e565]:
+            - article [ref=e566]:
+              - generic [ref=e567]:
+                - generic [ref=e568]: "[01]"
+                - generic [ref=e570]: STABLE_NODE
+              - heading "STABLE APIS" [level=3] [ref=e571]:
+                - generic [ref=e572]: STABLE
+                - generic [ref=e573]: APIS
+              - paragraph [ref=e575]: Stable endpoints expose query, ingest, and dashboard APIs directly, so integrations never drift against documentation.
+            - article [ref=e576]:
+              - generic [ref=e577]:
+                - generic [ref=e578]: "[02]"
+                - generic [ref=e580]: SDK_NODE
+              - heading "SDK INTEGRATIONS" [level=3] [ref=e581]:
+                - generic [ref=e582]: SDK
+                - generic [ref=e583]: INTEGRATIONS
+              - generic:
+                - paragraph: OpenTelemetry SDKs bind language runtimes to the ingest pipeline, where every span and metric is fully inspectable.
+            - article [ref=e584]:
+              - generic [ref=e585]:
+                - generic [ref=e586]: "[03]"
+                - generic [ref=e588]: COLLECTOR_NODE
+              - heading "OTEL COLLECTOR" [level=3] [ref=e589]:
+                - generic [ref=e590]: OTEL
+                - generic [ref=e591]: COLLECTOR
+              - generic:
+                - paragraph: The OpenTelemetry Collector validates, transforms, and routes telemetry at the edge before it reaches the backend.
+            - article [ref=e592]:
+              - generic [ref=e593]:
+                - generic [ref=e594]: "[04]"
+                - generic [ref=e596]: PRODUCTION_NODE
+              - heading "PRODUCTION READY" [level=3] [ref=e597]:
+                - generic [ref=e598]: PRODUCTION
+                - generic [ref=e599]: READY
+              - generic:
+                - paragraph: NOIR AI deploys on Kubernetes or Docker Compose and scales to billions of data points with proven production continuity.
+          - generic [ref=e600]:
+            - generic [ref=e601]:
+              - generic [ref=e602]:
+                - generic [ref=e605]: Execution_Surface // apis
+                - generic [ref=e606]: V1.0.48_STABLE
+              - generic [ref=e608]:
+                - generic [ref=e609]:
+                  - generic [ref=e612]: Execution_Surface
+                  - generic [ref=e613]: Stable APIs
+                - generic [ref=e614]:
+                  - generic [ref=e615]:
+                    - generic [ref=e616]: request
+                    - generic [ref=e617]: contract
+                    - generic [ref=e618]: response
+                  - generic [ref=e619]:
+                    - generic [ref=e620]:
+                      - paragraph [ref=e621]: surface
+                      - paragraph [ref=e622]: endpoint
+                    - generic [ref=e623]:
+                      - paragraph [ref=e624]: schema
+                      - paragraph [ref=e625]: v2.4
+                    - generic [ref=e626]:
+                      - paragraph [ref=e627]: latency
+                      - paragraph [ref=e628]: 132ms
+                  - generic [ref=e629]:
+                    - paragraph [ref=e631]: Runtime_Stream
+                    - generic [ref=e636]:
+                      - generic [ref=e637]:
+                        - generic [ref=e638]: ›
+                        - generic [ref=e639]: "[REQUEST] POST /v1/execute"
+                      - generic [ref=e640]:
+                        - generic [ref=e641]: ›
+                        - generic [ref=e642]: "[CONTEXT] workspace=research"
+                      - generic [ref=e643]:
+                        - generic [ref=e644]: ›
+                        - generic [ref=e645]: "[HEADER] x-trace-parent=rt-20418"
+                      - generic [ref=e646]:
+                        - generic [ref=e647]: ›
+                        - generic [ref=e648]: "[CONTRACT] input.schema=v2.4"
+                      - generic [ref=e649]:
+                        - generic [ref=e650]: ›
+                        - generic [ref=e651]: "[RESPONSE] status=200 payload=stable"
+                      - generic [ref=e652]:
+                        - generic [ref=e653]: ›
+                        - generic [ref=e654]: "[SUCCESS] 132ms"
+                - generic [ref=e655]:
+                  - generic [ref=e656]: noir_stack_v1.0.48
+                  - generic [ref=e657]: trace_verified
+            - generic [ref=e658]:
+              - generic [ref=e661]: SYSTEM_NOMINAL
+              - generic [ref=e662]:
+                - text: "COORD: 45.09N / 93.26W"
+                - text: "REF_ID: RT_804"
+            - generic [ref=e663]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                  - generic:
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                  - generic:
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                  - generic:
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                  - generic:
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                  - generic:
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+                    - generic: "0"
+                    - generic: "1"
+              - 'link "System_Node // 06 ● Deployment_Ready AUTH_SIG: 0x7F3A INITIALIZE RUNTIME Execute_Command Initiating this runtime opens all governed endpoints. [ TRACE_LOGGING: PERMANENT ]" [ref=e665] [cursor=pointer]':
+                - /url: "#colophon"
+                - generic [ref=e669]:
+                  - generic [ref=e670]:
+                    - generic [ref=e671]:
+                      - paragraph [ref=e672]: System_Node // 06
+                      - heading "● Deployment_Ready" [level=4] [ref=e673]
+                    - generic [ref=e674]: "AUTH_SIG: 0x7F3A"
+                  - heading "INITIALIZE RUNTIME" [level=4] [ref=e675]:
+                    - text: INITIALIZE
+                    - text: RUNTIME
+                  - generic [ref=e676]:
+                    - generic [ref=e677]: Execute_Command
+                    - paragraph [ref=e678]:
+                      - text: Initiating this runtime opens all governed endpoints.
+                      - text: "[ TRACE_LOGGING: PERMANENT ]"
+      - generic [ref=e680]:
+        - generic [ref=e681]:
+          - text: 08 / Extension
+          - heading "DEVELOPER SURFACE" [level=2] [ref=e682]
+        - generic [ref=e683]:
+          - generic [ref=e684]:
+            - heading "Connectors" [level=4] [ref=e685]
+            - list [ref=e686]:
+              - listitem [ref=e687]: MCP tools
+              - listitem [ref=e688]: SDK adapters
+          - generic [ref=e689]:
+            - heading "Contracts" [level=4] [ref=e690]
+            - list [ref=e691]:
+              - listitem [ref=e692]: Typed schemas
+              - listitem [ref=e693]: Versioned interfaces
+          - generic [ref=e694]:
+            - heading "Governance" [level=4] [ref=e695]
+            - list [ref=e696]:
+              - listitem [ref=e697]: Policy hooks
+              - listitem [ref=e698]: Approval gates
+          - generic [ref=e699]:
+            - heading "Observability" [level=4] [ref=e700]
+            - list [ref=e701]:
+              - listitem [ref=e702]: Telemetry schema
+              - listitem [ref=e703]: Trace IDs
+          - generic [ref=e704]:
+            - heading "Runtime" [level=4] [ref=e705]
+            - list [ref=e706]:
+              - listitem [ref=e707]: Composable flows
+              - listitem [ref=e708]: Rollback-safe tasks
+          - generic [ref=e709]:
+            - heading "Status" [level=4] [ref=e710]
+            - list [ref=e711]:
+              - listitem [ref=e712]: Operator ready
+              - listitem [ref=e713]: Extensible
+        - generic [ref=e714]:
+          - paragraph [ref=e715]: © 2026 Noir. All runtime layers connected.
+          - paragraph [ref=e716]: Designed with intention. Built with precision.
+  - button "Open Next.js Dev Tools" [ref=e722] [cursor=pointer]:
+    - img [ref=e723]
+  - alert [ref=e777]

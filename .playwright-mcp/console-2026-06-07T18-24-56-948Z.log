@@ -1,0 +1,177 @@
+[      99ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://fonts.vercel.com/font/geist/geist.css:0
+[    1576ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3301/node_modules/.vite/deps/react-dom-Cw4dxlaS.js?v=e192574d:17202
+[    2327ms] [ERROR] Warning: [antd: Spin] `tip` only work in nest pattern. @ http://localhost:3301/node_modules/.vite/deps/es-DzajZ8FJ.js?v=e192574d:43
+[    2389ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3301/api/v3/licenses/active:0
+[    2391ms] [ERROR] APIError: not found
+    at ErrorResponseHandlerV2 (http://localhost:3301/src/api/ErrorResponseHandlerV2.ts:9:9)
+    at Object.getActive [as queryFn] (http://localhost:3301/src/api/v3/licenses/active/get.ts:11:3) @ http://localhost:3301/node_modules/.vite/deps/react-query.js?v=e192574d:757
+[    2939ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.github.com/repos/noirai/noirai/releases/latest:0
+[    4093ms] [ERROR] Warning: validateDOMNesting(...): %s cannot appear as a child of <%s>.%s%s%s <div> thead   
+    at div
+    at HiddenText (http://localhost:3301/node_modules/.vite/deps/core.esm-DJuI2xVV.js?v=e192574d:10:8)
+    at Accessibility (http://localhost:3301/node_modules/.vite/deps/core.esm-DJuI2xVV.js?v=e192574d:96:8)
+    at DndContext$1 (http://localhost:3301/node_modules/.vite/deps/core.esm-DJuI2xVV.js?v=e192574d:1892:8)
+    at thead
+    at table
+    at Table (http://localhost:3301/src/components/TanStackTableView/TanStackTable.tsx:342:13)
+    at div
+    at Viewport (http://localhost:3301/node_modules/.vite/deps/react-virtuoso.js?v=e192574d:2795:19)
+    at div
+    at VirtuosoScroller (http://localhost:3301/node_modules/.vite/deps/react-virtuoso.js?v=e192574d:2101:60)
+    at TableVirtuosoRoot (http://localhost:3301/node_modules/.vite/deps/react-virtuoso.js?v=e192574d:2893:26)
+    at http://localhost:3301/node_modules/.vite/deps/react-virtuoso.js?v=e192574d:329:11
+    at Provider (http://localhost:3301/node_modules/.vite/deps/dist-DSnwNHlR.js?v=e192574d:36:12)
+    at TooltipProvider$1 (http://localhost:3301/node_modules/.vite/deps/tooltip-provider-DiCOu-K7.js?v=e192574d:47:10)
+    at TooltipProvider (http://localhost:3301/node_modules/.vite/deps/tooltip-provider-DiCOu-K7.js?v=e192574d:605:28)
+    at TanStackTableStateProvider (http://localhost:3301/src/components/TanStackTableView/TanStackTableStateContext.tsx:50:46)
+    at div
+    at TanStackTableInner (http://localhost:3301/src/components/TanStackTableView/TanStackTable.tsx:43:31)
+    at div
+    at div
+    at ListAlertRules (http://localhost:3301/src/container/ListAlertRules/index.tsx:34:19)
+    at div
+    at div
+    at http://localhost:3301/node_modules/.vite/deps/es-NnLRLa-V.js?v=e192574d:11356:24
+    at DomWrapper$2 (http://localhost:3301/node_modules/.vite/deps/es-DzajZ8FJ.js?v=e192574d:3592:4)
+    at http://localhost:3301/node_modules/.vite/deps/es-DzajZ8FJ.js?v=e192574d:3950:30
+    at div
+    at div
+    at TabPanelList (http://localhost:3301/node_modules/.vite/deps/es-NnLRLa-V.js?v=e192574d:11375:16)
+    at div
+    at Tabs (http://localhost:3301/node_modules/.vite/deps/es-NnLRLa-V.js?v=e192574d:12430:16)
+    at Tabs (http://localhost:3301/node_modules/.vite/deps/antd.js?v=e192574d:10267:10)
+    at AllAlertList (http://localhost:3301/src/pages/AlertList/index.tsx:22:19)
+    at Route$1 (http://localhost:3301/node_modules/.vite/deps/react-router-dom-HIPMGTKR.js?v=e192574d:701:27)
+    at Switch$1 (http://localhost:3301/node_modules/.vite/deps/react-router-dom-HIPMGTKR.js?v=e192574d:837:27)
+    at Suspense
+    at PreferenceContextProvider (http://localhost:3301/src/providers/preferences/context/PreferenceContextProvider.tsx:11:45)
+    at div
+    at P$1 (http://localhost:3301/node_modules/.vite/deps/styled-components.js?v=e192574d:1009:4)
+    at div
+    at div
+    at q (http://localhost:3301/node_modules/.vite/deps/overlayscrollbars-react.js?v=e192574d:2289:19)
+    at TypicalOverlayScrollbar (http://localhost:3301/src/components/TypicalOverlayScrollbar/TypicalOverlayScrollbar.tsx:5:51)
+    at OverlayScrollbar (http://localhost:3301/src/components/OverlayScrollbar/OverlayScrollbar.tsx:8:29)
+    at main
+    at http://localhost:3301/node_modules/.vite/deps/antd.js?v=e192574d:18455:21
+    at Content
+    at P$1 (http://localhost:3301/node_modules/.vite/deps/styled-components.js?v=e192574d:1009:4)
+    at ErrorBoundary (http://localhost:3301/node_modules/.vite/deps/@sentry_react.js?v=e192574d:21848:3)
+    at div
+    at div
+    at http://localhost:3301/node_modules/.vite/deps/antd.js?v=e192574d:15918:21
+    at div
+    at http://localhost:3301/node_modules/.vite/deps/antd.js?v=e192574d:18471:37
+    at Layout
+    at P$1 (http://localhost:3301/node_modules/.vite/deps/styled-components.js?v=e192574d:1009:4)
+    at Provider (http://localhost:3301/node_modules/.vite/deps/dist-DSnwNHlR.js?v=e192574d:36:12)
+    at TooltipProvider$1 (http://localhost:3301/node_modules/.vite/deps/tooltip-provider-DiCOu-K7.js?v=e192574d:47:10)
+    at TooltipProvider (http://localhost:3301/node_modules/.vite/deps/tooltip-provider-DiCOu-K7.js?v=e192574d:605:28)
+    at AppLayout (http://localhost:3301/src/container/AppLayout/index.tsx:65:231)
+    at KeyboardHotkeysProvider (http://localhost:3301/src/hooks/hotkeys/useKeyboardHotkeys.tsx:38:43)
+    at QueryBuilderProvider (http://localhost:3301/src/providers/QueryBuilder.tsx:59:40)
+    at ResourceProvider (http://localhost:3301/src/hooks/useResourceAttribute/ResourceProvider.tsx:16:29)
+    at PrivateRoute (http://localhost:3301/src/AppRoutes/Private.tsx:22:25)
+    at ErrorModalProvider (http://localhost:3301/src/providers/ErrorModalProvider.tsx:8:38)
+    at NotificationProvider (http://localhost:3301/src/hooks/useNotifications.tsx:16:40)
+    at CmdKProvider (http://localhost:3301/src/providers/cmdKProvider.tsx:7:32)
+    at RenderedRoute (http://localhost:3301/node_modules/.vite/deps/react-router-dom-v5-compat.js?v=e192574d:3339:8)
+    at Routes (http://localhost:3301/node_modules/.vite/deps/react-router-dom-v5-compat.js?v=e192574d:3782:8)
+    at Router (http://localhost:3301/node_modules/.vite/deps/react-router-dom-v5-compat.js?v=e192574d:3730:18)
+    at CompatRouter (http://localhost:3301/node_modules/.vite/deps/react-router-dom-v5-compat.js?v=e192574d:5078:8)
+    at Router$1 (http://localhost:3301/node_modules/.vite/deps/react-router-dom-HIPMGTKR.js?v=e192574d:458:32)
+    at MotionWrapper (http://localhost:3301/node_modules/.vite/deps/breadcrumb-ziuFRNrW.js?v=e192574d:1298:10)
+    at ProviderChildren (http://localhost:3301/node_modules/.vite/deps/breadcrumb-ziuFRNrW.js?v=e192574d:1386:10)
+    at ConfigProvider (http://localhost:3301/node_modules/.vite/deps/breadcrumb-ziuFRNrW.js?v=e192574d:1525:31)
+    at ErrorBoundary (http://localhost:3301/node_modules/.vite/deps/@sentry_react.js?v=e192574d:21848:3)
+    at App (http://localhost:3301/src/AppRoutes/index.tsx:45:22)
+    at AppProvider (http://localhost:3301/src/providers/App/App.tsx:30:31)
+    at Provider (http://localhost:3301/node_modules/.vite/deps/es-owkMfox3.js?v=e192574d:134:19)
+    at QueryClientProvider$1 (http://localhost:3301/node_modules/.vite/deps/react-query.js?v=e192574d:2279:20)
+    at TimezoneProvider (http://localhost:3301/src/providers/Timezone.tsx:12:29)
+    at ThemeProvider (http://localhost:3301/src/hooks/useDarkMode/index.tsx:34:33)
+    at http://localhost:3301/node_modules/.vite/deps/compare-Br3z3FUS-DkRvluZo.js?v=e192574d:91:12
+    at NuqsAdapter (http://localhost:3301/node_modules/.vite/deps/nuqs_adapters_react.js?v=e192574d:148:24)
+    at r$1 (http://localhost:3301/node_modules/.vite/deps/react-helmet-async.js?v=e192574d:425:21) @ http://localhost:3301/node_modules/.vite/deps/react-dom-Cw4dxlaS.js?v=e192574d:447
+[   24701ms] [ERROR] client never received a response, or request never left @ http://localhost:3301/src/api/ErrorResponseHandler.ts:35
+[   24701ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://cms.noirai.cloud/api/release-changelogs?filters[version][$eq]=0.0.0-dev&populate[features][sort]=sort_order:asc&populate[features][populate][media][fields]=id,ext,url,mime,alternativeText&populate[features][filters][deployment_type][$notIn]=Cloud%20only:0
+[   76442ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:3301/@vite/client:864
+[   77929ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://fonts.vercel.com/font/geist/geist.css:0
+[   81689ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:3301/@vite/client:864
+[   81701ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3301/src/utils/clearAuthStorage.ts:0
+[   81702ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3301/src/utils/noAuthMode.ts:0
+[   81702ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3301/src/api/v1/user/preferences/list.ts:0
+[   84285ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://fonts.vercel.com/font/geist/geist.css:0
+[   92941ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3301/node_modules/.vite/deps/react-dom-Cw4dxlaS.js?v=e192574d:17202
+[   94038ms] [ERROR] Warning: [antd: Spin] `tip` only work in nest pattern. @ http://localhost:3301/node_modules/.vite/deps/es-DzajZ8FJ.js?v=e192574d:43
+[   94620ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3301/api/v3/licenses/active:0
+[   94627ms] [ERROR] APIError: not found
+    at ErrorResponseHandlerV2 (http://localhost:3301/src/api/ErrorResponseHandlerV2.ts:9:9)
+    at Object.getActive [as queryFn] (http://localhost:3301/src/api/v3/licenses/active/get.ts:11:3) @ http://localhost:3301/node_modules/.vite/deps/react-query.js?v=e192574d:757
+[   95120ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost:3301/api/v2/users:0
+[   95164ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost:3301/api/v1/global/config:0
+[   95165ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:3301/@vite/client:864
+[   95220ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost:3301/locales/en-US/titles.json?h=:0
+[   95238ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost:3301/locales/en/titles.json?h=0efdeb78fefa336da555bb4e15e55ebf:0
+[   95311ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost:3301/api/v1/user/preferences:0
+[   95362ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.github.com/repos/noirai/noirai/releases/latest:0
+[   97489ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3301/src/assets/AlertHistory/ConfigureIcon.tsx:0
+[   97498ms] Failed to fetch dynamically imported module: http://localhost:3301/src/pages/AlertList/index.tsx
+[   97512ms] Failed to fetch dynamically imported module: http://localhost:3301/src/pages/AlertList/index.tsx
+[   97513ms] [ERROR] The above error occurred in one of your React components:
+
+    at Lazy
+    at Route$1 (http://localhost:3301/node_modules/.vite/deps/react-router-dom-HIPMGTKR.js?v=e192574d:701:27)
+    at Switch$1 (http://localhost:3301/node_modules/.vite/deps/react-router-dom-HIPMGTKR.js?v=e192574d:837:27)
+    at Suspense
+    at PreferenceContextProvider (http://localhost:3301/src/providers/preferences/context/PreferenceContextProvider.tsx:11:45)
+    at div
+    at P$1 (http://localhost:3301/node_modules/.vite/deps/styled-components.js?v=e192574d:1009:4)
+    at div
+    at div
+    at q (http://localhost:3301/node_modules/.vite/deps/overlayscrollbars-react.js?v=e192574d:2289:19)
+    at TypicalOverlayScrollbar (http://localhost:3301/src/components/TypicalOverlayScrollbar/TypicalOverlayScrollbar.tsx:5:51)
+    at OverlayScrollbar (http://localhost:3301/src/components/OverlayScrollbar/OverlayScrollbar.tsx:8:29)
+    at main
+    at http://localhost:3301/node_modules/.vite/deps/antd.js?v=e192574d:18455:21
+    at Content
+    at P$1 (http://localhost:3301/node_modules/.vite/deps/styled-components.js?v=e192574d:1009:4)
+    at ErrorBoundary (http://localhost:3301/node_modules/.vite/deps/@sentry_react.js?v=e192574d:21848:3)
+    at div
+    at div
+    at http://localhost:3301/node_modules/.vite/deps/antd.js?v=e192574d:15918:21
+    at div
+    at http://localhost:3301/node_modules/.vite/deps/antd.js?v=e192574d:18471:37
+    at Layout
+    at P$1 (http://localhost:3301/node_modules/.vite/deps/styled-components.js?v=e192574d:1009:4)
+    at Provider (http://localhost:3301/node_modules/.vite/deps/dist-DSnwNHlR.js?v=e192574d:36:12)
+    at TooltipProvider$1 (http://localhost:3301/node_modules/.vite/deps/tooltip-provider-DiCOu-K7.js?v=e192574d:47:10)
+    at TooltipProvider (http://localhost:3301/node_modules/.vite/deps/tooltip-provider-DiCOu-K7.js?v=e192574d:605:28)
+    at AppLayout (http://localhost:3301/src/container/AppLayout/index.tsx:65:231)
+    at KeyboardHotkeysProvider (http://localhost:3301/src/hooks/hotkeys/useKeyboardHotkeys.tsx:38:43)
+    at QueryBuilderProvider (http://localhost:3301/src/providers/QueryBuilder.tsx:59:40)
+    at ResourceProvider (http://localhost:3301/src/hooks/useResourceAttribute/ResourceProvider.tsx:16:29)
+    at PrivateRoute (http://localhost:3301/src/AppRoutes/Private.tsx:22:25)
+    at ErrorModalProvider (http://localhost:3301/src/providers/ErrorModalProvider.tsx:8:38)
+    at NotificationProvider (http://localhost:3301/src/hooks/useNotifications.tsx:16:40)
+    at CmdKProvider (http://localhost:3301/src/providers/cmdKProvider.tsx:7:32)
+    at RenderedRoute (http://localhost:3301/node_modules/.vite/deps/react-router-dom-v5-compat.js?v=e192574d:3339:8)
+    at Routes (http://localhost:3301/node_modules/.vite/deps/react-router-dom-v5-compat.js?v=e192574d:3782:8)
+    at Router (http://localhost:3301/node_modules/.vite/deps/react-router-dom-v5-compat.js?v=e192574d:3730:18)
+    at CompatRouter (http://localhost:3301/node_modules/.vite/deps/react-router-dom-v5-compat.js?v=e192574d:5078:8)
+    at Router$1 (http://localhost:3301/node_modules/.vite/deps/react-router-dom-HIPMGTKR.js?v=e192574d:458:32)
+    at MotionWrapper (http://localhost:3301/node_modules/.vite/deps/breadcrumb-ziuFRNrW.js?v=e192574d:1298:10)
+    at ProviderChildren (http://localhost:3301/node_modules/.vite/deps/breadcrumb-ziuFRNrW.js?v=e192574d:1386:10)
+    at ConfigProvider (http://localhost:3301/node_modules/.vite/deps/breadcrumb-ziuFRNrW.js?v=e192574d:1525:31)
+    at ErrorBoundary (http://localhost:3301/node_modules/.vite/deps/@sentry_react.js?v=e192574d:21848:3)
+    at App (http://localhost:3301/src/AppRoutes/index.tsx:45:22)
+    at AppProvider (http://localhost:3301/src/providers/App/App.tsx:30:31)
+    at Provider (http://localhost:3301/node_modules/.vite/deps/es-owkMfox3.js?v=e192574d:134:19)
+    at QueryClientProvider$1 (http://localhost:3301/node_modules/.vite/deps/react-query.js?v=e192574d:2279:20)
+    at TimezoneProvider (http://localhost:3301/src/providers/Timezone.tsx:12:29)
+    at ThemeProvider (http://localhost:3301/src/hooks/useDarkMode/index.tsx:34:33)
+    at http://localhost:3301/node_modules/.vite/deps/compare-Br3z3FUS-DkRvluZo.js?v=e192574d:91:12
+    at NuqsAdapter (http://localhost:3301/node_modules/.vite/deps/nuqs_adapters_react.js?v=e192574d:148:24)
+    at r$1 (http://localhost:3301/node_modules/.vite/deps/react-helmet-async.js?v=e192574d:425:21)
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:3301/node_modules/.vite/deps/react-dom-Cw4dxlaS.js?v=e192574d:11714

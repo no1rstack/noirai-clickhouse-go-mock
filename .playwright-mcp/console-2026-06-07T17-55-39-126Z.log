@@ -1,3 +1,0 @@
-[     226ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://fonts.vercel.com/font/geist/geist.css:0
-[    1622ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3301/node_modules/.vite/deps/react-dom-Cw4dxlaS.js?v=c4298eeb:17202
-[    2102ms] [ERROR] Warning: [antd: Spin] `tip` only work in nest pattern. @ http://localhost:3301/node_modules/.vite/deps/es-DzajZ8FJ.js?v=c4298eeb:43

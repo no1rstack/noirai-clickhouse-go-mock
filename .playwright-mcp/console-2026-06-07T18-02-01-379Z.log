@@ -1,9 +1,0 @@
-[     180ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://fonts.vercel.com/font/geist/geist.css:0
-[    1427ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3301/node_modules/.vite/deps/react-dom-Cw4dxlaS.js?v=c4298eeb:17202
-[    2108ms] [ERROR] Warning: [antd: Spin] `tip` only work in nest pattern. @ http://localhost:3301/node_modules/.vite/deps/es-DzajZ8FJ.js?v=c4298eeb:43
-[   41538ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3301/login:0
-[   62049ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3301/api/v3/licenses/active:0
-[   62051ms] [ERROR] APIError: not found
-    at ErrorResponseHandlerV2 (http://localhost:3301/src/api/ErrorResponseHandlerV2.ts:9:9)
-    at Object.getActive [as queryFn] (http://localhost:3301/src/api/v3/licenses/active/get.ts:11:3) @ http://localhost:3301/node_modules/.vite/deps/react-query.js?v=5f7c6ffa:757
-[   62542ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.github.com/repos/noirai/noirai/releases/latest:0
